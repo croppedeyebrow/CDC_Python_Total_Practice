@@ -1,0 +1,3312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_df555ef96c838b739362b68c8fc49073 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_df555ef96c838b739362b68c8fc49073" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_df555ef96c838b739362b68c8fc49073 = L.map(
+                "map_df555ef96c838b739362b68c8fc49073",
+                {
+                    center: [36.5, 127.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_409c30d8f12fb0540f9d1dfcf1d32a59 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_409c30d8f12fb0540f9d1dfcf1d32a59.addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var marker_7eb71b222c37760396030bd722234829 = L.marker(
+                [35.0504061254, 128.965882995454],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_942209e4e85a2b56ca860c0e3c3d9aee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7eb71b222c37760396030bd722234829.setIcon(icon_942209e4e85a2b56ca860c0e3c3d9aee);
+        
+    
+        var popup_668232255eeda6a02ee9499ee5be9cef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03d1e9b45b85c430b4bb59bc99f99ec8 = $(`<div id="html_03d1e9b45b85c430b4bb59bc99f99ec8" style="width: 100.0%; height: 100.0%;">안심노인주간보호센터사하점</div>`)[0];
+                popup_668232255eeda6a02ee9499ee5be9cef.setContent(html_03d1e9b45b85c430b4bb59bc99f99ec8);
+            
+        
+
+        marker_7eb71b222c37760396030bd722234829.bindPopup(popup_668232255eeda6a02ee9499ee5be9cef)
+        ;
+
+        
+    
+    
+            var marker_454e21f8e7780ba3c653d573bf75c834 = L.marker(
+                [36.4570171322708, 129.072181463324],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_e302feea797dfcd3d37152c708dd1682 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_454e21f8e7780ba3c653d573bf75c834.setIcon(icon_e302feea797dfcd3d37152c708dd1682);
+        
+    
+        var popup_1b809430cfd5cf3c6107b10e6c566681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c79a90b5bcdff8161ef0e3f75cea41c5 = $(`<div id="html_c79a90b5bcdff8161ef0e3f75cea41c5" style="width: 100.0%; height: 100.0%;">청송노인종합센터</div>`)[0];
+                popup_1b809430cfd5cf3c6107b10e6c566681.setContent(html_c79a90b5bcdff8161ef0e3f75cea41c5);
+            
+        
+
+        marker_454e21f8e7780ba3c653d573bf75c834.bindPopup(popup_1b809430cfd5cf3c6107b10e6c566681)
+        ;
+
+        
+    
+    
+            var marker_96a44ac7d46b16c413cc6d71d13e7a95 = L.marker(
+                [36.2105657441282, 128.053169465413],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_3b229d225d2a45f35873712511bef2fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96a44ac7d46b16c413cc6d71d13e7a95.setIcon(icon_3b229d225d2a45f35873712511bef2fe);
+        
+    
+        var popup_7e9be51f80de7993a3057c801f897bfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27e353795abfac33d3f031b826b5079b = $(`<div id="html_27e353795abfac33d3f031b826b5079b" style="width: 100.0%; height: 100.0%;">경북도립김천노인전문요양병원</div>`)[0];
+                popup_7e9be51f80de7993a3057c801f897bfc.setContent(html_27e353795abfac33d3f031b826b5079b);
+            
+        
+
+        marker_96a44ac7d46b16c413cc6d71d13e7a95.bindPopup(popup_7e9be51f80de7993a3057c801f897bfc)
+        ;
+
+        
+    
+    
+            var marker_a989d33a0bbd358576d46043378cf6af = L.marker(
+                [35.9191962436113, 128.281933535321],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_152f12454e025920e5b383c00b1094d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a989d33a0bbd358576d46043378cf6af.setIcon(icon_152f12454e025920e5b383c00b1094d9);
+        
+    
+        var popup_662900824a4d7635fba6c8050e9f7581 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa4cbf5646291007b3dec92152d183b = $(`<div id="html_ffa4cbf5646291007b3dec92152d183b" style="width: 100.0%; height: 100.0%;">가나안노인전문요양병원</div>`)[0];
+                popup_662900824a4d7635fba6c8050e9f7581.setContent(html_ffa4cbf5646291007b3dec92152d183b);
+            
+        
+
+        marker_a989d33a0bbd358576d46043378cf6af.bindPopup(popup_662900824a4d7635fba6c8050e9f7581)
+        ;
+
+        
+    
+    
+            var marker_3cfa944adb91e59dfb618f9245d8a76e = L.marker(
+                [35.8765311740493, 129.167326276602],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_350218a829d34e94391062f53b55b4af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3cfa944adb91e59dfb618f9245d8a76e.setIcon(icon_350218a829d34e94391062f53b55b4af);
+        
+    
+        var popup_2f2a6a5546c3fb44e1dc43db62ab327f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3df7e3137c1a3b807785f255d4c5e712 = $(`<div id="html_3df7e3137c1a3b807785f255d4c5e712" style="width: 100.0%; height: 100.0%;">노인전문간호센타</div>`)[0];
+                popup_2f2a6a5546c3fb44e1dc43db62ab327f.setContent(html_3df7e3137c1a3b807785f255d4c5e712);
+            
+        
+
+        marker_3cfa944adb91e59dfb618f9245d8a76e.bindPopup(popup_2f2a6a5546c3fb44e1dc43db62ab327f)
+        ;
+
+        
+    
+    
+            var marker_cddfa3400694069f44f94782b9a5293b = L.marker(
+                [37.0482974136485, 127.930944766967],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_b6b41a9c0b0f3d9146ba5c371113a8cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cddfa3400694069f44f94782b9a5293b.setIcon(icon_b6b41a9c0b0f3d9146ba5c371113a8cf);
+        
+    
+        var popup_bac9975775639e0d502ad3682bbc19e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7175644e8e9a85138e7ac3333f06322f = $(`<div id="html_7175644e8e9a85138e7ac3333f06322f" style="width: 100.0%; height: 100.0%;">충주시노인전문병원</div>`)[0];
+                popup_bac9975775639e0d502ad3682bbc19e6.setContent(html_7175644e8e9a85138e7ac3333f06322f);
+            
+        
+
+        marker_cddfa3400694069f44f94782b9a5293b.bindPopup(popup_bac9975775639e0d502ad3682bbc19e6)
+        ;
+
+        
+    
+    
+            var marker_6513f1b9df4b4f9be7ae933b62457f3a = L.marker(
+                [36.3080937121188, 127.444396714623],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_3397b3469b4a7ea8a82e4f2ad8ebdd6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6513f1b9df4b4f9be7ae933b62457f3a.setIcon(icon_3397b3469b4a7ea8a82e4f2ad8ebdd6d);
+        
+    
+        var popup_bfc7d8dbdee06c79e2f419861e7d71c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7563b3ca8e529e8125292a9ad2791f84 = $(`<div id="html_7563b3ca8e529e8125292a9ad2791f84" style="width: 100.0%; height: 100.0%;">한사랑노인전문병원</div>`)[0];
+                popup_bfc7d8dbdee06c79e2f419861e7d71c4.setContent(html_7563b3ca8e529e8125292a9ad2791f84);
+            
+        
+
+        marker_6513f1b9df4b4f9be7ae933b62457f3a.bindPopup(popup_bfc7d8dbdee06c79e2f419861e7d71c4)
+        ;
+
+        
+    
+    
+            var marker_a2b4ad8da868c216671d3e6408c599d1 = L.marker(
+                [35.2642193252816, 129.088921136941],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d015c9a0b64e124f4005eb42b0c67a04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2b4ad8da868c216671d3e6408c599d1.setIcon(icon_d015c9a0b64e124f4005eb42b0c67a04);
+        
+    
+        var popup_8ac57a6e97e229aeb55e7280bff00572 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ae273097ee9305f67f9e38f6d768908 = $(`<div id="html_8ae273097ee9305f67f9e38f6d768908" style="width: 100.0%; height: 100.0%;">형주노인요양병원</div>`)[0];
+                popup_8ac57a6e97e229aeb55e7280bff00572.setContent(html_8ae273097ee9305f67f9e38f6d768908);
+            
+        
+
+        marker_a2b4ad8da868c216671d3e6408c599d1.bindPopup(popup_8ac57a6e97e229aeb55e7280bff00572)
+        ;
+
+        
+    
+    
+            var marker_b61720ec9e2968268f36f5ce26d6ba55 = L.marker(
+                [36.2525823338454, 127.34091595658],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_4e27fdc0e7e07a3dee29d8b592dd81f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b61720ec9e2968268f36f5ce26d6ba55.setIcon(icon_4e27fdc0e7e07a3dee29d8b592dd81f9);
+        
+    
+        var popup_164aaf62b22c7b78522264469b22d779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1788df0316c8998388144537bc2f6136 = $(`<div id="html_1788df0316c8998388144537bc2f6136" style="width: 100.0%; height: 100.0%;">케어119엠마오소규모노인종합센터</div>`)[0];
+                popup_164aaf62b22c7b78522264469b22d779.setContent(html_1788df0316c8998388144537bc2f6136);
+            
+        
+
+        marker_b61720ec9e2968268f36f5ce26d6ba55.bindPopup(popup_164aaf62b22c7b78522264469b22d779)
+        ;
+
+        
+    
+    
+            var marker_2ea816f181f0670b393753ae725b2238 = L.marker(
+                [36.662595518283, 129.117307808213],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_ab8200d2fc3be2e79c137b2f1cbc133d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ea816f181f0670b393753ae725b2238.setIcon(icon_ab8200d2fc3be2e79c137b2f1cbc133d);
+        
+    
+        var popup_8442ea7d1f943d52812a4db18996136e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aced658cd7f58c67b24ee537337eb228 = $(`<div id="html_aced658cd7f58c67b24ee537337eb228" style="width: 100.0%; height: 100.0%;">영양노인요양병원</div>`)[0];
+                popup_8442ea7d1f943d52812a4db18996136e.setContent(html_aced658cd7f58c67b24ee537337eb228);
+            
+        
+
+        marker_2ea816f181f0670b393753ae725b2238.bindPopup(popup_8442ea7d1f943d52812a4db18996136e)
+        ;
+
+        
+    
+    
+            var marker_4d41f5652d88370e5b360ce4f31f2541 = L.marker(
+                [35.4294875689134, 129.071395835271],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_9c13e17d9e84145498e7e146f2651afe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d41f5652d88370e5b360ce4f31f2541.setIcon(icon_9c13e17d9e84145498e7e146f2651afe);
+        
+    
+        var popup_79c3507368d7cf85bbf833d84caf1d5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28dc7ee964b249a3d0798a35e1576d49 = $(`<div id="html_28dc7ee964b249a3d0798a35e1576d49" style="width: 100.0%; height: 100.0%;">양산노인전문병원</div>`)[0];
+                popup_79c3507368d7cf85bbf833d84caf1d5e.setContent(html_28dc7ee964b249a3d0798a35e1576d49);
+            
+        
+
+        marker_4d41f5652d88370e5b360ce4f31f2541.bindPopup(popup_79c3507368d7cf85bbf833d84caf1d5e)
+        ;
+
+        
+    
+    
+            var marker_377a15fcfeff9555c00c45162898bf77 = L.marker(
+                [35.2372565346092, 128.658463563737],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_1b2672ce539d16168f0be0937006c2c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_377a15fcfeff9555c00c45162898bf77.setIcon(icon_1b2672ce539d16168f0be0937006c2c9);
+        
+    
+        var popup_0c6ba51e475e83d84b2a673f146bf01e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05ee0605e88de24074a86ec4cb8e2a49 = $(`<div id="html_05ee0605e88de24074a86ec4cb8e2a49" style="width: 100.0%; height: 100.0%;">푸른노인전문병원</div>`)[0];
+                popup_0c6ba51e475e83d84b2a673f146bf01e.setContent(html_05ee0605e88de24074a86ec4cb8e2a49);
+            
+        
+
+        marker_377a15fcfeff9555c00c45162898bf77.bindPopup(popup_0c6ba51e475e83d84b2a673f146bf01e)
+        ;
+
+        
+    
+    
+            var marker_991536dda0422e379f5e2b4452aceeb5 = L.marker(
+                [35.2840969822095, 126.49807042328],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_cea91686be6383390a6fe16573c8b75a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_991536dda0422e379f5e2b4452aceeb5.setIcon(icon_cea91686be6383390a6fe16573c8b75a);
+        
+    
+        var popup_bb130a83be86d950e7b86923795be300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63703e58a328633f9c28c41996da33d1 = $(`<div id="html_63703e58a328633f9c28c41996da33d1" style="width: 100.0%; height: 100.0%;">영광노인전문요양병원</div>`)[0];
+                popup_bb130a83be86d950e7b86923795be300.setContent(html_63703e58a328633f9c28c41996da33d1);
+            
+        
+
+        marker_991536dda0422e379f5e2b4452aceeb5.bindPopup(popup_bb130a83be86d950e7b86923795be300)
+        ;
+
+        
+    
+    
+            var marker_55ced05f8f74c10f2f2be9de5f160cbb = L.marker(
+                [35.130747665673, 126.946339995089],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_c33b5a161bf70ab02ac6ea526eca960b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55ced05f8f74c10f2f2be9de5f160cbb.setIcon(icon_c33b5a161bf70ab02ac6ea526eca960b);
+        
+    
+        var popup_df4c50fecba2d2c784cacf6ae15d19e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4934dcbc6f814560722cf2ecf64d0ca7 = $(`<div id="html_4934dcbc6f814560722cf2ecf64d0ca7" style="width: 100.0%; height: 100.0%;">청심알콜치매정신병원</div>`)[0];
+                popup_df4c50fecba2d2c784cacf6ae15d19e9.setContent(html_4934dcbc6f814560722cf2ecf64d0ca7);
+            
+        
+
+        marker_55ced05f8f74c10f2f2be9de5f160cbb.bindPopup(popup_df4c50fecba2d2c784cacf6ae15d19e9)
+        ;
+
+        
+    
+    
+            var marker_e9ea67caabf12616947dd61a11478e8b = L.marker(
+                [34.7621069459836, 127.658584316356],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_3aa4f52960a7f622e70cdae1208bb932 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9ea67caabf12616947dd61a11478e8b.setIcon(icon_3aa4f52960a7f622e70cdae1208bb932);
+        
+    
+        var popup_6ad54a55577a5d5cdd929ed30923038d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e136ea6e87ef8821a4d04b2d60c7d946 = $(`<div id="html_e136ea6e87ef8821a4d04b2d60c7d946" style="width: 100.0%; height: 100.0%;">치매상담소</div>`)[0];
+                popup_6ad54a55577a5d5cdd929ed30923038d.setContent(html_e136ea6e87ef8821a4d04b2d60c7d946);
+            
+        
+
+        marker_e9ea67caabf12616947dd61a11478e8b.bindPopup(popup_6ad54a55577a5d5cdd929ed30923038d)
+        ;
+
+        
+    
+    
+            var marker_5c50671878466a160213972c4631cacf = L.marker(
+                [35.8128746917587, 127.136967528908],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_ef98bb530c749c0fa241141a51290848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c50671878466a160213972c4631cacf.setIcon(icon_ef98bb530c749c0fa241141a51290848);
+        
+    
+        var popup_5822da02015e44948058dee384565d1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_040a9a64d82ea522054b186fd974ae31 = $(`<div id="html_040a9a64d82ea522054b186fd974ae31" style="width: 100.0%; height: 100.0%;">엠마오노인병원</div>`)[0];
+                popup_5822da02015e44948058dee384565d1b.setContent(html_040a9a64d82ea522054b186fd974ae31);
+            
+        
+
+        marker_5c50671878466a160213972c4631cacf.bindPopup(popup_5822da02015e44948058dee384565d1b)
+        ;
+
+        
+    
+    
+            var marker_962def14588f0853dbcc4de7cc75b22d = L.marker(
+                [35.2776598419209, 126.51032374803],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_093c50eaf28e4993ed4ef45903c09872 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_962def14588f0853dbcc4de7cc75b22d.setIcon(icon_093c50eaf28e4993ed4ef45903c09872);
+        
+    
+        var popup_1505c011590ecba5be7804910c3cf851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00fa9cca6737dd9c7ae6e74cceb52162 = $(`<div id="html_00fa9cca6737dd9c7ae6e74cceb52162" style="width: 100.0%; height: 100.0%;">원광노인복지센터</div>`)[0];
+                popup_1505c011590ecba5be7804910c3cf851.setContent(html_00fa9cca6737dd9c7ae6e74cceb52162);
+            
+        
+
+        marker_962def14588f0853dbcc4de7cc75b22d.bindPopup(popup_1505c011590ecba5be7804910c3cf851)
+        ;
+
+        
+    
+    
+            var marker_787b468d5997ed0c66c07cafcd42bafd = L.marker(
+                [35.4265721034711, 127.371004852841],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_4331aab8ecd116e0cc9a9e3ec2ebeb0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_787b468d5997ed0c66c07cafcd42bafd.setIcon(icon_4331aab8ecd116e0cc9a9e3ec2ebeb0c);
+        
+    
+        var popup_b5b27a5ce42e461c6440b62197d7fa8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75d1b40bda1502edc82049657d1cacc9 = $(`<div id="html_75d1b40bda1502edc82049657d1cacc9" style="width: 100.0%; height: 100.0%;">기독교복음노인전문병원</div>`)[0];
+                popup_b5b27a5ce42e461c6440b62197d7fa8b.setContent(html_75d1b40bda1502edc82049657d1cacc9);
+            
+        
+
+        marker_787b468d5997ed0c66c07cafcd42bafd.bindPopup(popup_b5b27a5ce42e461c6440b62197d7fa8b)
+        ;
+
+        
+    
+    
+            var marker_e783ae97ab0c4dbba83697024b0b41f6 = L.marker(
+                [37.5100481141851, 126.938302621459],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_12099952e7fa1674c88343f12d783836 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e783ae97ab0c4dbba83697024b0b41f6.setIcon(icon_12099952e7fa1674c88343f12d783836);
+        
+    
+        var popup_cc5230b56051a0f965bd57a49dce2903 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce240f4eb0f6bf59db33a63a083949ad = $(`<div id="html_ce240f4eb0f6bf59db33a63a083949ad" style="width: 100.0%; height: 100.0%;">노인전문병원</div>`)[0];
+                popup_cc5230b56051a0f965bd57a49dce2903.setContent(html_ce240f4eb0f6bf59db33a63a083949ad);
+            
+        
+
+        marker_e783ae97ab0c4dbba83697024b0b41f6.bindPopup(popup_cc5230b56051a0f965bd57a49dce2903)
+        ;
+
+        
+    
+    
+            var marker_f29d2ff09e0d0141b5be8a856e1b6030 = L.marker(
+                [36.1104037856831, 126.656785933779],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_78e4c972140797c93e440ab1ee6bc4ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f29d2ff09e0d0141b5be8a856e1b6030.setIcon(icon_78e4c972140797c93e440ab1ee6bc4ca);
+        
+    
+        var popup_5c857c30bd29981b1a97788edd808b4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67f2471bf10d352352db7022528e688b = $(`<div id="html_67f2471bf10d352352db7022528e688b" style="width: 100.0%; height: 100.0%;">서천군립노인요양병원</div>`)[0];
+                popup_5c857c30bd29981b1a97788edd808b4b.setContent(html_67f2471bf10d352352db7022528e688b);
+            
+        
+
+        marker_f29d2ff09e0d0141b5be8a856e1b6030.bindPopup(popup_5c857c30bd29981b1a97788edd808b4b)
+        ;
+
+        
+    
+    
+            var marker_01d18c6d5d43ddb1e271d4a9abf27946 = L.marker(
+                [35.1501674024707, 126.67327136984],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_1c7233d654f737f846f10839f76a8a3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01d18c6d5d43ddb1e271d4a9abf27946.setIcon(icon_1c7233d654f737f846f10839f76a8a3b);
+        
+    
+        var popup_1294bb5790bd007c8207d58b4bfa3109 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7dddd7b1f37dc17f423385193dc1f8d = $(`<div id="html_f7dddd7b1f37dc17f423385193dc1f8d" style="width: 100.0%; height: 100.0%;">효정노인병원</div>`)[0];
+                popup_1294bb5790bd007c8207d58b4bfa3109.setContent(html_f7dddd7b1f37dc17f423385193dc1f8d);
+            
+        
+
+        marker_01d18c6d5d43ddb1e271d4a9abf27946.bindPopup(popup_1294bb5790bd007c8207d58b4bfa3109)
+        ;
+
+        
+    
+    
+            var marker_7801f34c4721e691c72a7f745cfbe366 = L.marker(
+                [34.7655846739168, 127.698803941711],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_57114dbb25af883a20d92a6e5f494d4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7801f34c4721e691c72a7f745cfbe366.setIcon(icon_57114dbb25af883a20d92a6e5f494d4c);
+        
+    
+        var popup_b84355f946a79063b68593ec52c31a6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7564b45fadccd1542c26d87a68bd0f4 = $(`<div id="html_c7564b45fadccd1542c26d87a68bd0f4" style="width: 100.0%; height: 100.0%;">여수노인전문병원</div>`)[0];
+                popup_b84355f946a79063b68593ec52c31a6e.setContent(html_c7564b45fadccd1542c26d87a68bd0f4);
+            
+        
+
+        marker_7801f34c4721e691c72a7f745cfbe366.bindPopup(popup_b84355f946a79063b68593ec52c31a6e)
+        ;
+
+        
+    
+    
+            var marker_94bfbc82842bc0aa921c59cae1a2afa5 = L.marker(
+                [36.9329448726387, 126.43747194456],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_e24c05f5c95654b7ea471ba8ef024056 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94bfbc82842bc0aa921c59cae1a2afa5.setIcon(icon_e24c05f5c95654b7ea471ba8ef024056);
+        
+    
+        var popup_7ae7010733adec4ac36416f4ae24a927 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9187402a4a07e45771ed33cdcf0afb46 = $(`<div id="html_9187402a4a07e45771ed33cdcf0afb46" style="width: 100.0%; height: 100.0%;">대산백석노인센타</div>`)[0];
+                popup_7ae7010733adec4ac36416f4ae24a927.setContent(html_9187402a4a07e45771ed33cdcf0afb46);
+            
+        
+
+        marker_94bfbc82842bc0aa921c59cae1a2afa5.bindPopup(popup_7ae7010733adec4ac36416f4ae24a927)
+        ;
+
+        
+    
+    
+            var marker_0c80d31e53ffddd3dec707831ac4d377 = L.marker(
+                [37.5887792533453, 127.02258298436],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_a2ad66ab5b9a1292db93b63dfb80ccf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c80d31e53ffddd3dec707831ac4d377.setIcon(icon_a2ad66ab5b9a1292db93b63dfb80ccf5);
+        
+    
+        var popup_fa523f0493d436089b5c89b30b95861d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05ec23c52bbf4336ee0a08c1b0068c76 = $(`<div id="html_05ec23c52bbf4336ee0a08c1b0068c76" style="width: 100.0%; height: 100.0%;">나래노인돌보미센터성북지점</div>`)[0];
+                popup_fa523f0493d436089b5c89b30b95861d.setContent(html_05ec23c52bbf4336ee0a08c1b0068c76);
+            
+        
+
+        marker_0c80d31e53ffddd3dec707831ac4d377.bindPopup(popup_fa523f0493d436089b5c89b30b95861d)
+        ;
+
+        
+    
+    
+            var marker_be3fe7607b8153c48fe85dca7cf8d0ac = L.marker(
+                [37.2990118674535, 126.997379735317],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_2b779595c8b1cde812bd1990bfc61282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be3fe7607b8153c48fe85dca7cf8d0ac.setIcon(icon_2b779595c8b1cde812bd1990bfc61282);
+        
+    
+        var popup_cb9285fc3bd2ec8010deeef63df2291b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d330dc4b515516c1f1ed1a1e1f24e4e = $(`<div id="html_6d330dc4b515516c1f1ed1a1e1f24e4e" style="width: 100.0%; height: 100.0%;">수원시노인정신건강1센터</div>`)[0];
+                popup_cb9285fc3bd2ec8010deeef63df2291b.setContent(html_6d330dc4b515516c1f1ed1a1e1f24e4e);
+            
+        
+
+        marker_be3fe7607b8153c48fe85dca7cf8d0ac.bindPopup(popup_cb9285fc3bd2ec8010deeef63df2291b)
+        ;
+
+        
+    
+    
+            var marker_f9dbfa1f02c850a6919f4762657f660c = L.marker(
+                [35.8597395410496, 128.539231516032],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_24812f3daa61ea04396be532c8f1d5a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9dbfa1f02c850a6919f4762657f660c.setIcon(icon_24812f3daa61ea04396be532c8f1d5a9);
+        
+    
+        var popup_de8c6aadfc3d7f0c83dac4cf3f3bee04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56ef76fef94b07932517cb7a2f9b83f3 = $(`<div id="html_56ef76fef94b07932517cb7a2f9b83f3" style="width: 100.0%; height: 100.0%;">서부노인전문병원</div>`)[0];
+                popup_de8c6aadfc3d7f0c83dac4cf3f3bee04.setContent(html_56ef76fef94b07932517cb7a2f9b83f3);
+            
+        
+
+        marker_f9dbfa1f02c850a6919f4762657f660c.bindPopup(popup_de8c6aadfc3d7f0c83dac4cf3f3bee04)
+        ;
+
+        
+    
+    
+            var marker_d8da3a5263ea66d5882edfd7dac34c63 = L.marker(
+                [36.3337062036013, 127.428843187092],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_3c4a6639e4c6ea69a173d32065b7c614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d8da3a5263ea66d5882edfd7dac34c63.setIcon(icon_3c4a6639e4c6ea69a173d32065b7c614);
+        
+    
+        var popup_038133f57bb1a1b9726250fe910fee85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92bd9216e3a4357c60b95f4ffd0504e5 = $(`<div id="html_92bd9216e3a4357c60b95f4ffd0504e5" style="width: 100.0%; height: 100.0%;">남영노인병원</div>`)[0];
+                popup_038133f57bb1a1b9726250fe910fee85.setContent(html_92bd9216e3a4357c60b95f4ffd0504e5);
+            
+        
+
+        marker_d8da3a5263ea66d5882edfd7dac34c63.bindPopup(popup_038133f57bb1a1b9726250fe910fee85)
+        ;
+
+        
+    
+    
+            var marker_45d109a2147e1d86a293220326fb3cd2 = L.marker(
+                [35.2049292293437, 128.560468432824],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_7e4c872b1b148f4d0f70219c280f5c9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_45d109a2147e1d86a293220326fb3cd2.setIcon(icon_7e4c872b1b148f4d0f70219c280f5c9a);
+        
+    
+        var popup_bcb57aaa0c33cfc717186115aef4d9ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e44f889f1352acdd1bffdcc9cf59e6 = $(`<div id="html_c6e44f889f1352acdd1bffdcc9cf59e6" style="width: 100.0%; height: 100.0%;">영민의료재단소망노인전문</div>`)[0];
+                popup_bcb57aaa0c33cfc717186115aef4d9ca.setContent(html_c6e44f889f1352acdd1bffdcc9cf59e6);
+            
+        
+
+        marker_45d109a2147e1d86a293220326fb3cd2.bindPopup(popup_bcb57aaa0c33cfc717186115aef4d9ca)
+        ;
+
+        
+    
+    
+            var marker_443e8f2b251ea35eab16270cf0a08348 = L.marker(
+                [37.3071145760769, 126.989138858104],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_04736d83483a152f40a6400ed74d33d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_443e8f2b251ea35eab16270cf0a08348.setIcon(icon_04736d83483a152f40a6400ed74d33d0);
+        
+    
+        var popup_17134914974e898c962b1ec2224624c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c487c628b4956f3aed397e16e8267eef = $(`<div id="html_c487c628b4956f3aed397e16e8267eef" style="width: 100.0%; height: 100.0%;">가인노인장기요양센터</div>`)[0];
+                popup_17134914974e898c962b1ec2224624c9.setContent(html_c487c628b4956f3aed397e16e8267eef);
+            
+        
+
+        marker_443e8f2b251ea35eab16270cf0a08348.bindPopup(popup_17134914974e898c962b1ec2224624c9)
+        ;
+
+        
+    
+    
+            var marker_36edfe5d99cdd104838d1a1e3d9f21a3 = L.marker(
+                [36.149905000633, 126.894881733519],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_24b362e7bae50260f4bfe97840c146c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36edfe5d99cdd104838d1a1e3d9f21a3.setIcon(icon_24b362e7bae50260f4bfe97840c146c8);
+        
+    
+        var popup_fd3772549f4ede537f33ea143e47b7af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29bbd8d8ebfa2631c98cb37dadec426a = $(`<div id="html_29bbd8d8ebfa2631c98cb37dadec426a" style="width: 100.0%; height: 100.0%;">가림노인전문병원</div>`)[0];
+                popup_fd3772549f4ede537f33ea143e47b7af.setContent(html_29bbd8d8ebfa2631c98cb37dadec426a);
+            
+        
+
+        marker_36edfe5d99cdd104838d1a1e3d9f21a3.bindPopup(popup_fd3772549f4ede537f33ea143e47b7af)
+        ;
+
+        
+    
+    
+            var marker_7e00ec376ad7adf9e467171f4089d11b = L.marker(
+                [37.4418801861653, 127.135867025907],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_c1d78965f8f08a5e96111db1d991d81f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e00ec376ad7adf9e467171f4089d11b.setIcon(icon_c1d78965f8f08a5e96111db1d991d81f);
+        
+    
+        var popup_bf55888c6a7f027ff15be84ae0d7a319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d63c4de0141e2fb3dbe326e6baa800f7 = $(`<div id="html_d63c4de0141e2fb3dbe326e6baa800f7" style="width: 100.0%; height: 100.0%;">노인의료복지경조회</div>`)[0];
+                popup_bf55888c6a7f027ff15be84ae0d7a319.setContent(html_d63c4de0141e2fb3dbe326e6baa800f7);
+            
+        
+
+        marker_7e00ec376ad7adf9e467171f4089d11b.bindPopup(popup_bf55888c6a7f027ff15be84ae0d7a319)
+        ;
+
+        
+    
+    
+            var marker_671d6b8f80691567ef8af554c0130a89 = L.marker(
+                [36.439110666781, 127.091950512202],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_0ece1cd2743511c7b91a4189b7883382 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_671d6b8f80691567ef8af554c0130a89.setIcon(icon_0ece1cd2743511c7b91a4189b7883382);
+        
+    
+        var popup_cfe567caf61d48d1dc629405ec9df2f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0454b7b5b5b8aa5074bbfb974890396 = $(`<div id="html_a0454b7b5b5b8aa5074bbfb974890396" style="width: 100.0%; height: 100.0%;">공주노인정신건강의학과의원</div>`)[0];
+                popup_cfe567caf61d48d1dc629405ec9df2f5.setContent(html_a0454b7b5b5b8aa5074bbfb974890396);
+            
+        
+
+        marker_671d6b8f80691567ef8af554c0130a89.bindPopup(popup_cfe567caf61d48d1dc629405ec9df2f5)
+        ;
+
+        
+    
+    
+            var marker_4f5413cdf6e79b3c7a5aa6895b78305c = L.marker(
+                [35.1857059699631, 128.127060106083],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_a0a1eb7898f8ca223f13f4ce873abc9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f5413cdf6e79b3c7a5aa6895b78305c.setIcon(icon_a0a1eb7898f8ca223f13f4ce873abc9c);
+        
+    
+        var popup_7e8abda01683bf2d224aa122b8555b78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d54bb33abfdbeb4b88b30817aba98fb = $(`<div id="html_9d54bb33abfdbeb4b88b30817aba98fb" style="width: 100.0%; height: 100.0%;">태향노인복지센타</div>`)[0];
+                popup_7e8abda01683bf2d224aa122b8555b78.setContent(html_9d54bb33abfdbeb4b88b30817aba98fb);
+            
+        
+
+        marker_4f5413cdf6e79b3c7a5aa6895b78305c.bindPopup(popup_7e8abda01683bf2d224aa122b8555b78)
+        ;
+
+        
+    
+    
+            var marker_a5fe40cd4f35cf0f91bfb241200e5bfe = L.marker(
+                [35.867258595307, 128.638155593351],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_4ec06aa4422ffae812c568a84f61b8ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5fe40cd4f35cf0f91bfb241200e5bfe.setIcon(icon_4ec06aa4422ffae812c568a84f61b8ef);
+        
+    
+        var popup_665b205e133641b30de0c2537799e900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ae18ad48ef16d79e70402bd77bd3f30 = $(`<div id="html_7ae18ad48ef16d79e70402bd77bd3f30" style="width: 100.0%; height: 100.0%;">수성노인복지센터</div>`)[0];
+                popup_665b205e133641b30de0c2537799e900.setContent(html_7ae18ad48ef16d79e70402bd77bd3f30);
+            
+        
+
+        marker_a5fe40cd4f35cf0f91bfb241200e5bfe.bindPopup(popup_665b205e133641b30de0c2537799e900)
+        ;
+
+        
+    
+    
+            var marker_9fd42ae31f7f6848a7ab4ac1053add3d = L.marker(
+                [37.5434651560996, 127.127170582608],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_a39122851302fdbfb5c0c01ad30ceaad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9fd42ae31f7f6848a7ab4ac1053add3d.setIcon(icon_a39122851302fdbfb5c0c01ad30ceaad);
+        
+    
+        var popup_78c29d5d242febf4c3d4b1358e7fd48b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d038aaa46ac9dd78f4c64b6635699668 = $(`<div id="html_d038aaa46ac9dd78f4c64b6635699668" style="width: 100.0%; height: 100.0%;">로뎀노인전문병원</div>`)[0];
+                popup_78c29d5d242febf4c3d4b1358e7fd48b.setContent(html_d038aaa46ac9dd78f4c64b6635699668);
+            
+        
+
+        marker_9fd42ae31f7f6848a7ab4ac1053add3d.bindPopup(popup_78c29d5d242febf4c3d4b1358e7fd48b)
+        ;
+
+        
+    
+    
+            var marker_ebaa6708e73febdad4628d80a4b777ce = L.marker(
+                [37.462191890284, 126.680600610116],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_b14e045237a5fbb04f37f0108f8bfea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebaa6708e73febdad4628d80a4b777ce.setIcon(icon_b14e045237a5fbb04f37f0108f8bfea1);
+        
+    
+        var popup_76dc3b211ad410ff372e89d254513605 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae91bd1a9d850b756eb08a5e89ef54cf = $(`<div id="html_ae91bd1a9d850b756eb08a5e89ef54cf" style="width: 100.0%; height: 100.0%;">노인의학괴</div>`)[0];
+                popup_76dc3b211ad410ff372e89d254513605.setContent(html_ae91bd1a9d850b756eb08a5e89ef54cf);
+            
+        
+
+        marker_ebaa6708e73febdad4628d80a4b777ce.bindPopup(popup_76dc3b211ad410ff372e89d254513605)
+        ;
+
+        
+    
+    
+            var marker_3b1fcdf8ec71c3476c60a081da85b1bd = L.marker(
+                [36.523720375187, 128.689430783318],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_0bc3d6fd6628df1487f3741cd0310cfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b1fcdf8ec71c3476c60a081da85b1bd.setIcon(icon_0bc3d6fd6628df1487f3741cd0310cfa);
+        
+    
+        var popup_a0a9649bbee8c0760ea286bfecbf0a2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40db861a9cda050ad81bf27f799bd65 = $(`<div id="html_a40db861a9cda050ad81bf27f799bd65" style="width: 100.0%; height: 100.0%;">경북도립노인전문병원</div>`)[0];
+                popup_a0a9649bbee8c0760ea286bfecbf0a2c.setContent(html_a40db861a9cda050ad81bf27f799bd65);
+            
+        
+
+        marker_3b1fcdf8ec71c3476c60a081da85b1bd.bindPopup(popup_a0a9649bbee8c0760ea286bfecbf0a2c)
+        ;
+
+        
+    
+    
+            var marker_014655e54e59519a91280949660b4a7a = L.marker(
+                [37.3033026308306, 126.809839157739],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_7c115d9ba35a268de77bf6ff013513eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_014655e54e59519a91280949660b4a7a.setIcon(icon_7c115d9ba35a268de77bf6ff013513eb);
+        
+    
+        var popup_91973c0b2e731f92c82635a683916aef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ceea085fd73ce3350e67861ddd797e4 = $(`<div id="html_2ceea085fd73ce3350e67861ddd797e4" style="width: 100.0%; height: 100.0%;">효송의료재단서안산노인전문병원</div>`)[0];
+                popup_91973c0b2e731f92c82635a683916aef.setContent(html_2ceea085fd73ce3350e67861ddd797e4);
+            
+        
+
+        marker_014655e54e59519a91280949660b4a7a.bindPopup(popup_91973c0b2e731f92c82635a683916aef)
+        ;
+
+        
+    
+    
+            var marker_1bf218a9f8fb44ce7b9af6aebee55436 = L.marker(
+                [35.8580124637514, 128.636188180988],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_0373a16053a6b01071edacc1aa869efe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bf218a9f8fb44ce7b9af6aebee55436.setIcon(icon_0373a16053a6b01071edacc1aa869efe);
+        
+    
+        var popup_c409142c507b1ddd57ddedb33255fd0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_598f777efd8ffed646270f9b9c5783d6 = $(`<div id="html_598f777efd8ffed646270f9b9c5783d6" style="width: 100.0%; height: 100.0%;">수성노인복지센터</div>`)[0];
+                popup_c409142c507b1ddd57ddedb33255fd0e.setContent(html_598f777efd8ffed646270f9b9c5783d6);
+            
+        
+
+        marker_1bf218a9f8fb44ce7b9af6aebee55436.bindPopup(popup_c409142c507b1ddd57ddedb33255fd0e)
+        ;
+
+        
+    
+    
+            var marker_92da338f7fadb838369b49175e875ae2 = L.marker(
+                [35.8064202021484, 127.149462908681],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_effde8f50c01523fe6f5561d1cca1c2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92da338f7fadb838369b49175e875ae2.setIcon(icon_effde8f50c01523fe6f5561d1cca1c2e);
+        
+    
+        var popup_aca4df9cab1885eae5acc329a0824637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51d20a1c95923c98bf6c7731a77bf23e = $(`<div id="html_51d20a1c95923c98bf6c7731a77bf23e" style="width: 100.0%; height: 100.0%;">누가노인건강교실</div>`)[0];
+                popup_aca4df9cab1885eae5acc329a0824637.setContent(html_51d20a1c95923c98bf6c7731a77bf23e);
+            
+        
+
+        marker_92da338f7fadb838369b49175e875ae2.bindPopup(popup_aca4df9cab1885eae5acc329a0824637)
+        ;
+
+        
+    
+    
+            var marker_a92d3bfa0cd0c77473dafa3719fe08f5 = L.marker(
+                [35.2616388903896, 128.861021822052],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_84de7e41f87ec41a256c92977f6ed2a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a92d3bfa0cd0c77473dafa3719fe08f5.setIcon(icon_84de7e41f87ec41a256c92977f6ed2a5);
+        
+    
+        var popup_a14cca7a2273a9ea86803f954ab2e342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dac5682a25199f32f4ea06c4ae576fd = $(`<div id="html_4dac5682a25199f32f4ea06c4ae576fd" style="width: 100.0%; height: 100.0%;">노인전문병원</div>`)[0];
+                popup_a14cca7a2273a9ea86803f954ab2e342.setContent(html_4dac5682a25199f32f4ea06c4ae576fd);
+            
+        
+
+        marker_a92d3bfa0cd0c77473dafa3719fe08f5.bindPopup(popup_a14cca7a2273a9ea86803f954ab2e342)
+        ;
+
+        
+    
+    
+            var marker_53d54802b219cde452fc2d1ff26393e4 = L.marker(
+                [37.4979483684245, 126.985622034875],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_0bc752db3b416244eb3c7915b555ced6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_53d54802b219cde452fc2d1ff26393e4.setIcon(icon_0bc752db3b416244eb3c7915b555ced6);
+        
+    
+        var popup_aa502b1ae5cb12c062448f0c49ca8894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55727fd6ca91b38626d8dd0e97a0ab82 = $(`<div id="html_55727fd6ca91b38626d8dd0e97a0ab82" style="width: 100.0%; height: 100.0%;">한올노인병원</div>`)[0];
+                popup_aa502b1ae5cb12c062448f0c49ca8894.setContent(html_55727fd6ca91b38626d8dd0e97a0ab82);
+            
+        
+
+        marker_53d54802b219cde452fc2d1ff26393e4.bindPopup(popup_aa502b1ae5cb12c062448f0c49ca8894)
+        ;
+
+        
+    
+    
+            var marker_72734ce45d36445328240aae8610f27d = L.marker(
+                [37.5133127692492, 126.722910091062],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_40b10f29a1cac1751389e607570110e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72734ce45d36445328240aae8610f27d.setIcon(icon_40b10f29a1cac1751389e607570110e6);
+        
+    
+        var popup_cc42359d2786d45dd3149425b1e9c0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_780ae1a35848aae3271670ab75083cc5 = $(`<div id="html_780ae1a35848aae3271670ab75083cc5" style="width: 100.0%; height: 100.0%;">노아이레노인복지센터</div>`)[0];
+                popup_cc42359d2786d45dd3149425b1e9c0f9.setContent(html_780ae1a35848aae3271670ab75083cc5);
+            
+        
+
+        marker_72734ce45d36445328240aae8610f27d.bindPopup(popup_cc42359d2786d45dd3149425b1e9c0f9)
+        ;
+
+        
+    
+    
+            var marker_75e3c34be8cbcd1a20e6b392c11f0813 = L.marker(
+                [35.8077750335107, 127.001026257232],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_ab82e8d3fc9514a9dde1267f185ec27a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75e3c34be8cbcd1a20e6b392c11f0813.setIcon(icon_ab82e8d3fc9514a9dde1267f185ec27a);
+        
+    
+        var popup_43a6cdd4d61b7e0e913aed9d9161a227 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d72d0914f4031441e7a7dfa1c8b3fe37 = $(`<div id="html_d72d0914f4031441e7a7dfa1c8b3fe37" style="width: 100.0%; height: 100.0%;">미래노인전문병원</div>`)[0];
+                popup_43a6cdd4d61b7e0e913aed9d9161a227.setContent(html_d72d0914f4031441e7a7dfa1c8b3fe37);
+            
+        
+
+        marker_75e3c34be8cbcd1a20e6b392c11f0813.bindPopup(popup_43a6cdd4d61b7e0e913aed9d9161a227)
+        ;
+
+        
+    
+    
+            var marker_1ee9f1ae5e93951fc1a2323267cae0cb = L.marker(
+                [37.1394995921778, 128.199342667132],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_695945ef6d517d0b3550fd800ac1a092 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ee9f1ae5e93951fc1a2323267cae0cb.setIcon(icon_695945ef6d517d0b3550fd800ac1a092);
+        
+    
+        var popup_67c4425ccc31ab301724c853871633bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58e51eb5f80beb112a49bd62cd23cf8b = $(`<div id="html_58e51eb5f80beb112a49bd62cd23cf8b" style="width: 100.0%; height: 100.0%;">하소아파트1단지노인회</div>`)[0];
+                popup_67c4425ccc31ab301724c853871633bc.setContent(html_58e51eb5f80beb112a49bd62cd23cf8b);
+            
+        
+
+        marker_1ee9f1ae5e93951fc1a2323267cae0cb.bindPopup(popup_67c4425ccc31ab301724c853871633bc)
+        ;
+
+        
+    
+    
+            var marker_7acd3ce86f9c832e226f04ca8fb3a35d = L.marker(
+                [37.0626875937977, 129.41862905258],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_c674220d248d1dbd21a0890cc5e2538f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7acd3ce86f9c832e226f04ca8fb3a35d.setIcon(icon_c674220d248d1dbd21a0890cc5e2538f);
+        
+    
+        var popup_ee51a1800eb1e8a35eb09844ca1c35b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a3906440f616354345daad1274fb38e = $(`<div id="html_3a3906440f616354345daad1274fb38e" style="width: 100.0%; height: 100.0%;">울진실버노인센터</div>`)[0];
+                popup_ee51a1800eb1e8a35eb09844ca1c35b9.setContent(html_3a3906440f616354345daad1274fb38e);
+            
+        
+
+        marker_7acd3ce86f9c832e226f04ca8fb3a35d.bindPopup(popup_ee51a1800eb1e8a35eb09844ca1c35b9)
+        ;
+
+        
+    
+    
+            var marker_36d160b0057b4e450551d2350daaa09f = L.marker(
+                [36.5623029159519, 128.701537108902],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_67e7c5933413a3d27b4e72277123f5fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36d160b0057b4e450551d2350daaa09f.setIcon(icon_67e7c5933413a3d27b4e72277123f5fa);
+        
+    
+        var popup_c71675169010a1a6b2146d71c1094cd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e4106ef298c3d5c85e526a540362038 = $(`<div id="html_5e4106ef298c3d5c85e526a540362038" style="width: 100.0%; height: 100.0%;">경상북도립노인전문병원</div>`)[0];
+                popup_c71675169010a1a6b2146d71c1094cd8.setContent(html_5e4106ef298c3d5c85e526a540362038);
+            
+        
+
+        marker_36d160b0057b4e450551d2350daaa09f.bindPopup(popup_c71675169010a1a6b2146d71c1094cd8)
+        ;
+
+        
+    
+    
+            var marker_3e7ab57e4108bb6029275c77d0e82c8a = L.marker(
+                [35.0358810577194, 126.799497567883],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_10bc9447c206e74ff0b91d4373071ba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e7ab57e4108bb6029275c77d0e82c8a.setIcon(icon_10bc9447c206e74ff0b91d4373071ba3);
+        
+    
+        var popup_b89fa5e2641015e31abca005dc4a485c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e48a888aa09bf38922f7b36ba4d12e71 = $(`<div id="html_e48a888aa09bf38922f7b36ba4d12e71" style="width: 100.0%; height: 100.0%;">빛가람노인건강복지센터</div>`)[0];
+                popup_b89fa5e2641015e31abca005dc4a485c.setContent(html_e48a888aa09bf38922f7b36ba4d12e71);
+            
+        
+
+        marker_3e7ab57e4108bb6029275c77d0e82c8a.bindPopup(popup_b89fa5e2641015e31abca005dc4a485c)
+        ;
+
+        
+    
+    
+            var marker_e54072100a49a5519704519727996e00 = L.marker(
+                [37.6850358546588, 126.777168163701],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_e700e9b09bfba3aaea49db25b8161d64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e54072100a49a5519704519727996e00.setIcon(icon_e700e9b09bfba3aaea49db25b8161d64);
+        
+    
+        var popup_1496641f264bef8d33bace4b60d6c533 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_846363db236455725e0745f1fe537b91 = $(`<div id="html_846363db236455725e0745f1fe537b91" style="width: 100.0%; height: 100.0%;">한울노인병원</div>`)[0];
+                popup_1496641f264bef8d33bace4b60d6c533.setContent(html_846363db236455725e0745f1fe537b91);
+            
+        
+
+        marker_e54072100a49a5519704519727996e00.bindPopup(popup_1496641f264bef8d33bace4b60d6c533)
+        ;
+
+        
+    
+    
+            var marker_957a7aaef556db7c14af0ba8077e73a9 = L.marker(
+                [37.5461000832309, 126.6842492357],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_82c9e9677b9ad15bc41dd9f68645f723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_957a7aaef556db7c14af0ba8077e73a9.setIcon(icon_82c9e9677b9ad15bc41dd9f68645f723);
+        
+    
+        var popup_f403a36b1ec0b6c1b353ee8fd2812102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b42a09c72127e98c577b9da0592094b = $(`<div id="html_8b42a09c72127e98c577b9da0592094b" style="width: 100.0%; height: 100.0%;">인천광역시시립노인치매요양병원</div>`)[0];
+                popup_f403a36b1ec0b6c1b353ee8fd2812102.setContent(html_8b42a09c72127e98c577b9da0592094b);
+            
+        
+
+        marker_957a7aaef556db7c14af0ba8077e73a9.bindPopup(popup_f403a36b1ec0b6c1b353ee8fd2812102)
+        ;
+
+        
+    
+    
+            var marker_d4247c1596dccc22f26fad24f427afee = L.marker(
+                [35.2217492342021, 128.564461708446],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_53f4c3222e4cdae2d2dc40c7646e6fc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4247c1596dccc22f26fad24f427afee.setIcon(icon_53f4c3222e4cdae2d2dc40c7646e6fc6);
+        
+    
+        var popup_a0b35c52e0fb16547c29a3ceb3944e96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51866033ad847a297dc3da6c2183eaa0 = $(`<div id="html_51866033ad847a297dc3da6c2183eaa0" style="width: 100.0%; height: 100.0%;">마산노인병원</div>`)[0];
+                popup_a0b35c52e0fb16547c29a3ceb3944e96.setContent(html_51866033ad847a297dc3da6c2183eaa0);
+            
+        
+
+        marker_d4247c1596dccc22f26fad24f427afee.bindPopup(popup_a0b35c52e0fb16547c29a3ceb3944e96)
+        ;
+
+        
+    
+    
+            var marker_203d5ad559498fde5d487ecc9358bb6b = L.marker(
+                [35.1575542099933, 128.200272924006],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_8dc29dd4cbfffcf4eabcc30464ca5597 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_203d5ad559498fde5d487ecc9358bb6b.setIcon(icon_8dc29dd4cbfffcf4eabcc30464ca5597);
+        
+    
+        var popup_12b1bd48834e84646267cc211da4b9d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6e1d061981105c8bd7dc7ec6c514dc7 = $(`<div id="html_f6e1d061981105c8bd7dc7ec6c514dc7" style="width: 100.0%; height: 100.0%;">성남노인요양병원</div>`)[0];
+                popup_12b1bd48834e84646267cc211da4b9d8.setContent(html_f6e1d061981105c8bd7dc7ec6c514dc7);
+            
+        
+
+        marker_203d5ad559498fde5d487ecc9358bb6b.bindPopup(popup_12b1bd48834e84646267cc211da4b9d8)
+        ;
+
+        
+    
+    
+            var marker_fe34303ff13f69a29325fc2f0cc0fe10 = L.marker(
+                [35.7299822342179, 128.27216747814],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d431189988a7e398e370272b7b4a6ed1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe34303ff13f69a29325fc2f0cc0fe10.setIcon(icon_d431189988a7e398e370272b7b4a6ed1);
+        
+    
+        var popup_6cb98e6575f00abbdc6b48453b052a01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ea07aea03e6ff45448b2215b0c391d3 = $(`<div id="html_8ea07aea03e6ff45448b2215b0c391d3" style="width: 100.0%; height: 100.0%;">고령군립노인복지병원</div>`)[0];
+                popup_6cb98e6575f00abbdc6b48453b052a01.setContent(html_8ea07aea03e6ff45448b2215b0c391d3);
+            
+        
+
+        marker_fe34303ff13f69a29325fc2f0cc0fe10.bindPopup(popup_6cb98e6575f00abbdc6b48453b052a01)
+        ;
+
+        
+    
+    
+            var marker_8957fad99032dd3a346c08e56a79c9ab = L.marker(
+                [34.7386401720407, 127.74265006214],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_4f7c38cd3ad4347e22c36ceb4496b64a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8957fad99032dd3a346c08e56a79c9ab.setIcon(icon_4f7c38cd3ad4347e22c36ceb4496b64a);
+        
+    
+        var popup_cef077654eb7b26f158e684449d3b8e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_788f435572aaa2bd111f1d4e80f76f50 = $(`<div id="html_788f435572aaa2bd111f1d4e80f76f50" style="width: 100.0%; height: 100.0%;">고소아파트노인당</div>`)[0];
+                popup_cef077654eb7b26f158e684449d3b8e8.setContent(html_788f435572aaa2bd111f1d4e80f76f50);
+            
+        
+
+        marker_8957fad99032dd3a346c08e56a79c9ab.bindPopup(popup_cef077654eb7b26f158e684449d3b8e8)
+        ;
+
+        
+    
+    
+            var marker_938c76481a26566e7b5a2ab8c3b703cc = L.marker(
+                [37.5442292434691, 126.672468324588],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d9b8fd207ac4898f4d5b6985dce135bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_938c76481a26566e7b5a2ab8c3b703cc.setIcon(icon_d9b8fd207ac4898f4d5b6985dce135bb);
+        
+    
+        var popup_d58a8a4786f262bef6e3204faed6567b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ca94debc793ac795204130ec258f1b9 = $(`<div id="html_7ca94debc793ac795204130ec258f1b9" style="width: 100.0%; height: 100.0%;">노인질환의료</div>`)[0];
+                popup_d58a8a4786f262bef6e3204faed6567b.setContent(html_7ca94debc793ac795204130ec258f1b9);
+            
+        
+
+        marker_938c76481a26566e7b5a2ab8c3b703cc.bindPopup(popup_d58a8a4786f262bef6e3204faed6567b)
+        ;
+
+        
+    
+    
+            var marker_f937a19c8d5e7b5af1bcf28ddd3aa037 = L.marker(
+                [35.9068710544178, 126.704646339602],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d5c1ef9702588b388fa64cf3486f1721 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f937a19c8d5e7b5af1bcf28ddd3aa037.setIcon(icon_d5c1ef9702588b388fa64cf3486f1721);
+        
+    
+        var popup_959fd51bd6be83c16001b8e3fd1e9ad4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eef0c350110da380518dd3d368d734cd = $(`<div id="html_eef0c350110da380518dd3d368d734cd" style="width: 100.0%; height: 100.0%;">행복한노인병원</div>`)[0];
+                popup_959fd51bd6be83c16001b8e3fd1e9ad4.setContent(html_eef0c350110da380518dd3d368d734cd);
+            
+        
+
+        marker_f937a19c8d5e7b5af1bcf28ddd3aa037.bindPopup(popup_959fd51bd6be83c16001b8e3fd1e9ad4)
+        ;
+
+        
+    
+    
+            var marker_dede8fffcedc7f123af0b8c197e53a0a = L.marker(
+                [37.4794448588327, 126.765466634217],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_63df33b791a5172d7f1da175088f9918 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dede8fffcedc7f123af0b8c197e53a0a.setIcon(icon_63df33b791a5172d7f1da175088f9918);
+        
+    
+        var popup_bcce123301ed2ffed633da71bf3bc3af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d81c4e5d0f7150d981f33a497b33fd77 = $(`<div id="html_d81c4e5d0f7150d981f33a497b33fd77" style="width: 100.0%; height: 100.0%;">송내노인주간보호센터</div>`)[0];
+                popup_bcce123301ed2ffed633da71bf3bc3af.setContent(html_d81c4e5d0f7150d981f33a497b33fd77);
+            
+        
+
+        marker_dede8fffcedc7f123af0b8c197e53a0a.bindPopup(popup_bcce123301ed2ffed633da71bf3bc3af)
+        ;
+
+        
+    
+    
+            var marker_8e6200ca463c5b3b257885d3d2c16cff = L.marker(
+                [35.7809590885063, 127.130709155156],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_83e557b3962bb5f7febd82e63286a6ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e6200ca463c5b3b257885d3d2c16cff.setIcon(icon_83e557b3962bb5f7febd82e63286a6ec);
+        
+    
+        var popup_a4cfe68160229917b2544b337350dd54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b0957e6afd890f4e8c7620bc72a58cb = $(`<div id="html_8b0957e6afd890f4e8c7620bc72a58cb" style="width: 100.0%; height: 100.0%;">대한노인병원</div>`)[0];
+                popup_a4cfe68160229917b2544b337350dd54.setContent(html_8b0957e6afd890f4e8c7620bc72a58cb);
+            
+        
+
+        marker_8e6200ca463c5b3b257885d3d2c16cff.bindPopup(popup_a4cfe68160229917b2544b337350dd54)
+        ;
+
+        
+    
+    
+            var marker_f809936a3925ab4ca6cf3d42b84ff4a9 = L.marker(
+                [36.7233500012334, 127.593269085853],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_2c1835ed55ae20c0c68a948badef0843 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f809936a3925ab4ca6cf3d42b84ff4a9.setIcon(icon_2c1835ed55ae20c0c68a948badef0843);
+        
+    
+        var popup_78fb4aa45348c040a7f6eaa130d69357 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_902fa7b041a048bc728f387f19d72921 = $(`<div id="html_902fa7b041a048bc728f387f19d72921" style="width: 100.0%; height: 100.0%;">초정리노인병원</div>`)[0];
+                popup_78fb4aa45348c040a7f6eaa130d69357.setContent(html_902fa7b041a048bc728f387f19d72921);
+            
+        
+
+        marker_f809936a3925ab4ca6cf3d42b84ff4a9.bindPopup(popup_78fb4aa45348c040a7f6eaa130d69357)
+        ;
+
+        
+    
+    
+            var marker_9a459ee9398adb596254a1ef8b7fe0f7 = L.marker(
+                [36.8917013314589, 128.733496929804],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_902fced5c68d8e16cd56b1c9541be254 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a459ee9398adb596254a1ef8b7fe0f7.setIcon(icon_902fced5c68d8e16cd56b1c9541be254);
+        
+    
+        var popup_80f6949db58c2a41e60a39609feb4878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbc1be2af7c4ef8ef031f832c44e2f23 = $(`<div id="html_fbc1be2af7c4ef8ef031f832c44e2f23" style="width: 100.0%; height: 100.0%;">봉화군립노인전문요양병원</div>`)[0];
+                popup_80f6949db58c2a41e60a39609feb4878.setContent(html_fbc1be2af7c4ef8ef031f832c44e2f23);
+            
+        
+
+        marker_9a459ee9398adb596254a1ef8b7fe0f7.bindPopup(popup_80f6949db58c2a41e60a39609feb4878)
+        ;
+
+        
+    
+    
+            var marker_667de9f48d8a21810e3fad92228acd16 = L.marker(
+                [35.1946918362177, 129.066085883192],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_82df7926f35b8f663437e0dfe3da077e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_667de9f48d8a21810e3fad92228acd16.setIcon(icon_82df7926f35b8f663437e0dfe3da077e);
+        
+    
+        var popup_b8bb7b9a3dc3b19c7b86aaefbf823f66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af1521f345a3095a013b2df87db41f97 = $(`<div id="html_af1521f345a3095a013b2df87db41f97" style="width: 100.0%; height: 100.0%;">부산노인복지진흥회동래</div>`)[0];
+                popup_b8bb7b9a3dc3b19c7b86aaefbf823f66.setContent(html_af1521f345a3095a013b2df87db41f97);
+            
+        
+
+        marker_667de9f48d8a21810e3fad92228acd16.bindPopup(popup_b8bb7b9a3dc3b19c7b86aaefbf823f66)
+        ;
+
+        
+    
+    
+            var marker_54a9cc02b694b697a688b18c27c062b0 = L.marker(
+                [37.3327716337573, 126.812048745886],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_248208b44c61d41d99a6ca0dc2787c2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54a9cc02b694b697a688b18c27c062b0.setIcon(icon_248208b44c61d41d99a6ca0dc2787c2a);
+        
+    
+        var popup_b15dcd2afbf78ddec8e009c0db3da7f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_355f3c8398bf55eeb78e336b46e9b879 = $(`<div id="html_355f3c8398bf55eeb78e336b46e9b879" style="width: 100.0%; height: 100.0%;">안산노인요양병원</div>`)[0];
+                popup_b15dcd2afbf78ddec8e009c0db3da7f3.setContent(html_355f3c8398bf55eeb78e336b46e9b879);
+            
+        
+
+        marker_54a9cc02b694b697a688b18c27c062b0.bindPopup(popup_b15dcd2afbf78ddec8e009c0db3da7f3)
+        ;
+
+        
+    
+    
+            var marker_5aea7bd0cbd586dac4484c4e0e329f89 = L.marker(
+                [37.6631901854944, 127.027354592701],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_c60041e5aa3c7bc49958754e8057c233 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5aea7bd0cbd586dac4484c4e0e329f89.setIcon(icon_c60041e5aa3c7bc49958754e8057c233);
+        
+    
+        var popup_0d3f66306ff19e5b45e9a0d0975329e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2512eec01b968eb77de11e94672be0 = $(`<div id="html_be2512eec01b968eb77de11e94672be0" style="width: 100.0%; height: 100.0%;">경희늘푸른노인병원</div>`)[0];
+                popup_0d3f66306ff19e5b45e9a0d0975329e4.setContent(html_be2512eec01b968eb77de11e94672be0);
+            
+        
+
+        marker_5aea7bd0cbd586dac4484c4e0e329f89.bindPopup(popup_0d3f66306ff19e5b45e9a0d0975329e4)
+        ;
+
+        
+    
+    
+            var marker_43e7cacf9c5eca4c7a62e35542332982 = L.marker(
+                [37.6043131451552, 127.107897745664],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d416bd4ed3ca12c9c131f103cf0701af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43e7cacf9c5eca4c7a62e35542332982.setIcon(icon_d416bd4ed3ca12c9c131f103cf0701af);
+        
+    
+        var popup_41b37f618c2570deba92df05583d309d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16daec3c69b81b79fa94ffcafcd354ca = $(`<div id="html_16daec3c69b81b79fa94ffcafcd354ca" style="width: 100.0%; height: 100.0%;">시울특별시립북부노인병원</div>`)[0];
+                popup_41b37f618c2570deba92df05583d309d.setContent(html_16daec3c69b81b79fa94ffcafcd354ca);
+            
+        
+
+        marker_43e7cacf9c5eca4c7a62e35542332982.bindPopup(popup_41b37f618c2570deba92df05583d309d)
+        ;
+
+        
+    
+    
+            var marker_ebbe7cf69a987e7c3e0ac952ddaeb7eb = L.marker(
+                [35.1633857438722, 126.667919859195],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_c9ad33127491e4611a718b1e22cbc708 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebbe7cf69a987e7c3e0ac952ddaeb7eb.setIcon(icon_c9ad33127491e4611a718b1e22cbc708);
+        
+    
+        var popup_e9ba437d0edd1e8ad320deffa8421df9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec9a057c395fc8824fddb056c229fdb = $(`<div id="html_eec9a057c395fc8824fddb056c229fdb" style="width: 100.0%; height: 100.0%;">광주시립인광치매요양병원</div>`)[0];
+                popup_e9ba437d0edd1e8ad320deffa8421df9.setContent(html_eec9a057c395fc8824fddb056c229fdb);
+            
+        
+
+        marker_ebbe7cf69a987e7c3e0ac952ddaeb7eb.bindPopup(popup_e9ba437d0edd1e8ad320deffa8421df9)
+        ;
+
+        
+    
+    
+            var marker_1ec86cc495932d811d8265c07671207c = L.marker(
+                [36.5844850735047, 128.189323935384],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_744e1a285744df087787eeccca20b52b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ec86cc495932d811d8265c07671207c.setIcon(icon_744e1a285744df087787eeccca20b52b);
+        
+    
+        var popup_e46c0cbc3fb7b18756151e930a22ed70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7d4902cd7ae92ca31cd44cd5b8d0c71 = $(`<div id="html_e7d4902cd7ae92ca31cd44cd5b8d0c71" style="width: 100.0%; height: 100.0%;">동춘의료재단문경제일노인요양병원</div>`)[0];
+                popup_e46c0cbc3fb7b18756151e930a22ed70.setContent(html_e7d4902cd7ae92ca31cd44cd5b8d0c71);
+            
+        
+
+        marker_1ec86cc495932d811d8265c07671207c.bindPopup(popup_e46c0cbc3fb7b18756151e930a22ed70)
+        ;
+
+        
+    
+    
+            var marker_67d9653fcb4d2dcafa09173a08e87926 = L.marker(
+                [37.6737152729448, 126.777660042223],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_c0acac27d7cb2a402fa72289008b97e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_67d9653fcb4d2dcafa09173a08e87926.setIcon(icon_c0acac27d7cb2a402fa72289008b97e3);
+        
+    
+        var popup_73a1076a0da5409caa5eaecac2208dbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60370fc2fe84928aec9e35125ae6ee6a = $(`<div id="html_60370fc2fe84928aec9e35125ae6ee6a" style="width: 100.0%; height: 100.0%;">노인종합복지센타</div>`)[0];
+                popup_73a1076a0da5409caa5eaecac2208dbf.setContent(html_60370fc2fe84928aec9e35125ae6ee6a);
+            
+        
+
+        marker_67d9653fcb4d2dcafa09173a08e87926.bindPopup(popup_73a1076a0da5409caa5eaecac2208dbf)
+        ;
+
+        
+    
+    
+            var marker_5af77bbd0ff7fb6ca24863f1f6c4cca7 = L.marker(
+                [35.1792279354692, 128.081266184811],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_f7da34ae8f895b6035a447797496ffca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5af77bbd0ff7fb6ca24863f1f6c4cca7.setIcon(icon_f7da34ae8f895b6035a447797496ffca);
+        
+    
+        var popup_8eae5d90f4841221a80444a15a778c2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd33dda2d4041e347fddba6ae1ae6758 = $(`<div id="html_dd33dda2d4041e347fddba6ae1ae6758" style="width: 100.0%; height: 100.0%;">목화노인병원</div>`)[0];
+                popup_8eae5d90f4841221a80444a15a778c2b.setContent(html_dd33dda2d4041e347fddba6ae1ae6758);
+            
+        
+
+        marker_5af77bbd0ff7fb6ca24863f1f6c4cca7.bindPopup(popup_8eae5d90f4841221a80444a15a778c2b)
+        ;
+
+        
+    
+    
+            var marker_a0272313addcd24c971e97d56450204d = L.marker(
+                [37.5035332146564, 127.137385052553],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_b3a7118a3b3282d31d12d9579a2e3238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0272313addcd24c971e97d56450204d.setIcon(icon_b3a7118a3b3282d31d12d9579a2e3238);
+        
+    
+        var popup_45eef43486c29414105f4d21783f00fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8f52eb3ffc3a39e40c0e3b7dee1890a = $(`<div id="html_c8f52eb3ffc3a39e40c0e3b7dee1890a" style="width: 100.0%; height: 100.0%;">송파참노인전문병원</div>`)[0];
+                popup_45eef43486c29414105f4d21783f00fc.setContent(html_c8f52eb3ffc3a39e40c0e3b7dee1890a);
+            
+        
+
+        marker_a0272313addcd24c971e97d56450204d.bindPopup(popup_45eef43486c29414105f4d21783f00fc)
+        ;
+
+        
+    
+    
+            var marker_0412c1091f9bac91ef9ec3ea9ec54948 = L.marker(
+                [37.3555376501065, 127.945226213583],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_87e53319dd9e7d825820d919ee5dff70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0412c1091f9bac91ef9ec3ea9ec54948.setIcon(icon_87e53319dd9e7d825820d919ee5dff70);
+        
+    
+        var popup_57d2b0d9dae445daadb75fab4c0b5245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f2a4bf1cf9a14635f24ba589419613b = $(`<div id="html_9f2a4bf1cf9a14635f24ba589419613b" style="width: 100.0%; height: 100.0%;">노인의료복지경조회</div>`)[0];
+                popup_57d2b0d9dae445daadb75fab4c0b5245.setContent(html_9f2a4bf1cf9a14635f24ba589419613b);
+            
+        
+
+        marker_0412c1091f9bac91ef9ec3ea9ec54948.bindPopup(popup_57d2b0d9dae445daadb75fab4c0b5245)
+        ;
+
+        
+    
+    
+            var marker_e31b9d107bb5286f9480600040554e14 = L.marker(
+                [37.5233683611469, 126.863097489457],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_6ca456b2701b617af40ef2d219e46aa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e31b9d107bb5286f9480600040554e14.setIcon(icon_6ca456b2701b617af40ef2d219e46aa6);
+        
+    
+        var popup_37a5548597f6cc91963369891e73cf78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43fd7e2dd735f4faba462f4b560a3d48 = $(`<div id="html_43fd7e2dd735f4faba462f4b560a3d48" style="width: 100.0%; height: 100.0%;">삼구이엔엘나래노인돌보미센터</div>`)[0];
+                popup_37a5548597f6cc91963369891e73cf78.setContent(html_43fd7e2dd735f4faba462f4b560a3d48);
+            
+        
+
+        marker_e31b9d107bb5286f9480600040554e14.bindPopup(popup_37a5548597f6cc91963369891e73cf78)
+        ;
+
+        
+    
+    
+            var marker_0044ce5daea928aab337bdc72d8fc6cf = L.marker(
+                [35.244169681482, 128.862309468302],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_0f37ea4e04369dd4c7d1d42fb707ae51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0044ce5daea928aab337bdc72d8fc6cf.setIcon(icon_0f37ea4e04369dd4c7d1d42fb707ae51);
+        
+    
+        var popup_3057f1ff78a0eaed660fe62ce60f4f26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_873b92d9bec15d1fdd2658576471ab39 = $(`<div id="html_873b92d9bec15d1fdd2658576471ab39" style="width: 100.0%; height: 100.0%;">창녕노인병원</div>`)[0];
+                popup_3057f1ff78a0eaed660fe62ce60f4f26.setContent(html_873b92d9bec15d1fdd2658576471ab39);
+            
+        
+
+        marker_0044ce5daea928aab337bdc72d8fc6cf.bindPopup(popup_3057f1ff78a0eaed660fe62ce60f4f26)
+        ;
+
+        
+    
+    
+            var marker_ca757b92b1f1a4ca508aeaa92fa88a91 = L.marker(
+                [36.439110666781, 127.091950512202],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_94e865f10a07f42790e9b388655f9723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca757b92b1f1a4ca508aeaa92fa88a91.setIcon(icon_94e865f10a07f42790e9b388655f9723);
+        
+    
+        var popup_01053439401054bc83405f3ca6a465e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a2a303cb05d71918d25793221555562 = $(`<div id="html_6a2a303cb05d71918d25793221555562" style="width: 100.0%; height: 100.0%;">공주노인전문병원</div>`)[0];
+                popup_01053439401054bc83405f3ca6a465e5.setContent(html_6a2a303cb05d71918d25793221555562);
+            
+        
+
+        marker_ca757b92b1f1a4ca508aeaa92fa88a91.bindPopup(popup_01053439401054bc83405f3ca6a465e5)
+        ;
+
+        
+    
+    
+            var marker_3eaae6a400626761e6c59c18786f489e = L.marker(
+                [36.2272460512078, 127.453256347146],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_aeb31f9a4850df421032e5849c051ee9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3eaae6a400626761e6c59c18786f489e.setIcon(icon_aeb31f9a4850df421032e5849c051ee9);
+        
+    
+        var popup_bb4c5ca6da0f1574812467e4dc47d647 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc50a6c94f9617d0af05845289603722 = $(`<div id="html_fc50a6c94f9617d0af05845289603722" style="width: 100.0%; height: 100.0%;">보광노인전문병원</div>`)[0];
+                popup_bb4c5ca6da0f1574812467e4dc47d647.setContent(html_fc50a6c94f9617d0af05845289603722);
+            
+        
+
+        marker_3eaae6a400626761e6c59c18786f489e.bindPopup(popup_bb4c5ca6da0f1574812467e4dc47d647)
+        ;
+
+        
+    
+    
+            var marker_2d01822f1d0c2a4313d4c4593c7a5703 = L.marker(
+                [37.5634032341473, 126.975510103913],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_747c7b917ab9dd44a029ae8977bbf6c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d01822f1d0c2a4313d4c4593c7a5703.setIcon(icon_747c7b917ab9dd44a029ae8977bbf6c5);
+        
+    
+        var popup_9c93aa98d39a24fbba97d3657ee2736f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff851f5001001456a2b57c3a69b6be60 = $(`<div id="html_ff851f5001001456a2b57c3a69b6be60" style="width: 100.0%; height: 100.0%;">노인복지건강증진회</div>`)[0];
+                popup_9c93aa98d39a24fbba97d3657ee2736f.setContent(html_ff851f5001001456a2b57c3a69b6be60);
+            
+        
+
+        marker_2d01822f1d0c2a4313d4c4593c7a5703.bindPopup(popup_9c93aa98d39a24fbba97d3657ee2736f)
+        ;
+
+        
+    
+    
+            var marker_86b1e63ef5c27632b7842b186d509764 = L.marker(
+                [35.2518773535751, 127.000673629841],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_2812accd0489b6564a7532dcb56c5605 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86b1e63ef5c27632b7842b186d509764.setIcon(icon_2812accd0489b6564a7532dcb56c5605);
+        
+    
+        var popup_3c7f4645527b0dd2ea7411ba24a176fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b1ff229f61c36d9326f8af026fbb6f1 = $(`<div id="html_3b1ff229f61c36d9326f8af026fbb6f1" style="width: 100.0%; height: 100.0%;">창평한마음노인병원</div>`)[0];
+                popup_3c7f4645527b0dd2ea7411ba24a176fa.setContent(html_3b1ff229f61c36d9326f8af026fbb6f1);
+            
+        
+
+        marker_86b1e63ef5c27632b7842b186d509764.bindPopup(popup_3c7f4645527b0dd2ea7411ba24a176fa)
+        ;
+
+        
+    
+    
+            var marker_28c0dc6530a88b30657bb619987bfad9 = L.marker(
+                [37.3535704583791, 126.724865261792],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_999c48dc4159474df737f55ceb643471 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28c0dc6530a88b30657bb619987bfad9.setIcon(icon_999c48dc4159474df737f55ceb643471);
+        
+    
+        var popup_c87a0b96b36527cf1737069cb8fed532 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8841087f3438f22ee272cc5572e678e = $(`<div id="html_d8841087f3438f22ee272cc5572e678e" style="width: 100.0%; height: 100.0%;">한울노인병원</div>`)[0];
+                popup_c87a0b96b36527cf1737069cb8fed532.setContent(html_d8841087f3438f22ee272cc5572e678e);
+            
+        
+
+        marker_28c0dc6530a88b30657bb619987bfad9.bindPopup(popup_c87a0b96b36527cf1737069cb8fed532)
+        ;
+
+        
+    
+    
+            var marker_e991a3db8cc9afccae36be899cf4f666 = L.marker(
+                [35.8850073947602, 128.528249450758],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d34b0da646c0e9b628b6a4854cf5191e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e991a3db8cc9afccae36be899cf4f666.setIcon(icon_d34b0da646c0e9b628b6a4854cf5191e);
+        
+    
+        var popup_b4924460e447a29a89c1db1d3c1e8843 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a95175743b508eb548c915a27c4840e = $(`<div id="html_9a95175743b508eb548c915a27c4840e" style="width: 100.0%; height: 100.0%;">샬롬노인종합센터</div>`)[0];
+                popup_b4924460e447a29a89c1db1d3c1e8843.setContent(html_9a95175743b508eb548c915a27c4840e);
+            
+        
+
+        marker_e991a3db8cc9afccae36be899cf4f666.bindPopup(popup_b4924460e447a29a89c1db1d3c1e8843)
+        ;
+
+        
+    
+    
+            var marker_ff0a902e70bffc257ee6a0efa91c8830 = L.marker(
+                [37.5334084881856, 126.724004386568],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_c9eedbe6a4296294b8d747cb567024fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff0a902e70bffc257ee6a0efa91c8830.setIcon(icon_c9eedbe6a4296294b8d747cb567024fa);
+        
+    
+        var popup_c015c7bf0a77bac979ac248716b5474f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f2cfffe63c82d8e325eeec5070ecfbb = $(`<div id="html_1f2cfffe63c82d8e325eeec5070ecfbb" style="width: 100.0%; height: 100.0%;">반딧불노인요양원</div>`)[0];
+                popup_c015c7bf0a77bac979ac248716b5474f.setContent(html_1f2cfffe63c82d8e325eeec5070ecfbb);
+            
+        
+
+        marker_ff0a902e70bffc257ee6a0efa91c8830.bindPopup(popup_c015c7bf0a77bac979ac248716b5474f)
+        ;
+
+        
+    
+    
+            var marker_c12742c10e9d689d3bd1ffe5c221dd94 = L.marker(
+                [37.4709553834064, 126.70553203895],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_a9de7fc9e8589b8974b0fa56a35dc8a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c12742c10e9d689d3bd1ffe5c221dd94.setIcon(icon_a9de7fc9e8589b8974b0fa56a35dc8a2);
+        
+    
+        var popup_7c959b472f76877eecb9338d70e78488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc576a730dc5ee0c8dd7cefd1b9288b2 = $(`<div id="html_bc576a730dc5ee0c8dd7cefd1b9288b2" style="width: 100.0%; height: 100.0%;">동암샛별노인간호센터</div>`)[0];
+                popup_7c959b472f76877eecb9338d70e78488.setContent(html_bc576a730dc5ee0c8dd7cefd1b9288b2);
+            
+        
+
+        marker_c12742c10e9d689d3bd1ffe5c221dd94.bindPopup(popup_7c959b472f76877eecb9338d70e78488)
+        ;
+
+        
+    
+    
+            var marker_8b2c54878e170a41d22f635203bf8d0b = L.marker(
+                [36.8956464849127, 127.969747346876],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_7a2470ff7c33b1ac0ec269e4bcd6209a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b2c54878e170a41d22f635203bf8d0b.setIcon(icon_7a2470ff7c33b1ac0ec269e4bcd6209a);
+        
+    
+        var popup_1585fc3fcd45f0a21d12f998be0baa39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f71a5fa153922a4fdfd14e7eb418ccb5 = $(`<div id="html_f71a5fa153922a4fdfd14e7eb418ccb5" style="width: 100.0%; height: 100.0%;">노인의료복지시설모세의집</div>`)[0];
+                popup_1585fc3fcd45f0a21d12f998be0baa39.setContent(html_f71a5fa153922a4fdfd14e7eb418ccb5);
+            
+        
+
+        marker_8b2c54878e170a41d22f635203bf8d0b.bindPopup(popup_1585fc3fcd45f0a21d12f998be0baa39)
+        ;
+
+        
+    
+    
+            var marker_06f6c523e0873413d58d1e218bf91b08 = L.marker(
+                [37.2503885227588, 127.155564524244],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_b5e0d5f0c8e4a08144769ff06b32e3da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06f6c523e0873413d58d1e218bf91b08.setIcon(icon_b5e0d5f0c8e4a08144769ff06b32e3da);
+        
+    
+        var popup_df71f116459804f288d368c1db02bea1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_964d0038ab2bd94c5f2258f67d2e5974 = $(`<div id="html_964d0038ab2bd94c5f2258f67d2e5974" style="width: 100.0%; height: 100.0%;">경기도노인전문용인병원</div>`)[0];
+                popup_df71f116459804f288d368c1db02bea1.setContent(html_964d0038ab2bd94c5f2258f67d2e5974);
+            
+        
+
+        marker_06f6c523e0873413d58d1e218bf91b08.bindPopup(popup_df71f116459804f288d368c1db02bea1)
+        ;
+
+        
+    
+    
+            var marker_a43e20e31de67b79caca5a5e150ca826 = L.marker(
+                [34.6222069439735, 127.294277772178],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_0368a43cd5f226995ec4c867363c2b69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a43e20e31de67b79caca5a5e150ca826.setIcon(icon_0368a43cd5f226995ec4c867363c2b69);
+        
+    
+        var popup_65da244ea04609c12f856201e711ab3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eab46345171af0b6cbba1ffbfc0acfb8 = $(`<div id="html_eab46345171af0b6cbba1ffbfc0acfb8" style="width: 100.0%; height: 100.0%;">고흥군공립노인전문요양병원</div>`)[0];
+                popup_65da244ea04609c12f856201e711ab3f.setContent(html_eab46345171af0b6cbba1ffbfc0acfb8);
+            
+        
+
+        marker_a43e20e31de67b79caca5a5e150ca826.bindPopup(popup_65da244ea04609c12f856201e711ab3f)
+        ;
+
+        
+    
+    
+            var marker_ce32f9d16da312e37680dcd360d24a79 = L.marker(
+                [36.6853493743295, 127.501614804463],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_16448adfb9c58b2cdf0001bf737bb4a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce32f9d16da312e37680dcd360d24a79.setIcon(icon_16448adfb9c58b2cdf0001bf737bb4a7);
+        
+    
+        var popup_13add0e3e91cfb96bb00f6da8ae2e516 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96d2a02424aa7d133916cfd8a57551a4 = $(`<div id="html_96d2a02424aa7d133916cfd8a57551a4" style="width: 100.0%; height: 100.0%;">수정노인의집</div>`)[0];
+                popup_13add0e3e91cfb96bb00f6da8ae2e516.setContent(html_96d2a02424aa7d133916cfd8a57551a4);
+            
+        
+
+        marker_ce32f9d16da312e37680dcd360d24a79.bindPopup(popup_13add0e3e91cfb96bb00f6da8ae2e516)
+        ;
+
+        
+    
+    
+            var marker_70a538e7250ad6d3c69bfc5dbc3bd784 = L.marker(
+                [36.6300422045223, 127.490946238157],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_ea3d477de0f77999ae58262a230d2e42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70a538e7250ad6d3c69bfc5dbc3bd784.setIcon(icon_ea3d477de0f77999ae58262a230d2e42);
+        
+    
+        var popup_16af556fff4ba01f2d4b77cd90a1a5eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_722797588472cf0166e9f2f69526010f = $(`<div id="html_722797588472cf0166e9f2f69526010f" style="width: 100.0%; height: 100.0%;">행복한노인의원</div>`)[0];
+                popup_16af556fff4ba01f2d4b77cd90a1a5eb.setContent(html_722797588472cf0166e9f2f69526010f);
+            
+        
+
+        marker_70a538e7250ad6d3c69bfc5dbc3bd784.bindPopup(popup_16af556fff4ba01f2d4b77cd90a1a5eb)
+        ;
+
+        
+    
+    
+            var marker_97dfa29d29f4784357e3b357e2ad74e1 = L.marker(
+                [35.1537846934997, 129.027731088929],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d5ef1b157d7f61e43406df0030b745b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97dfa29d29f4784357e3b357e2ad74e1.setIcon(icon_d5ef1b157d7f61e43406df0030b745b6);
+        
+    
+        var popup_b6393d2504153728c876d6e800e8f448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdbae8b744705ea71b9b8170305356fd = $(`<div id="html_cdbae8b744705ea71b9b8170305356fd" style="width: 100.0%; height: 100.0%;">행복한복지재단부산진구노인의료센타</div>`)[0];
+                popup_b6393d2504153728c876d6e800e8f448.setContent(html_cdbae8b744705ea71b9b8170305356fd);
+            
+        
+
+        marker_97dfa29d29f4784357e3b357e2ad74e1.bindPopup(popup_b6393d2504153728c876d6e800e8f448)
+        ;
+
+        
+    
+    
+            var marker_45d1e901b55fbaccc232b4af5d1f6abe = L.marker(
+                [35.1874343704355, 129.060072967083],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_befa8ed72c3b53b89e4de69197006bd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_45d1e901b55fbaccc232b4af5d1f6abe.setIcon(icon_befa8ed72c3b53b89e4de69197006bd1);
+        
+    
+        var popup_d2b609a97f72b7419082722dd7be14f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e36dfe794f5914d81953bdbeb82e1e6 = $(`<div id="html_2e36dfe794f5914d81953bdbeb82e1e6" style="width: 100.0%; height: 100.0%;">부산노인전문제2병원</div>`)[0];
+                popup_d2b609a97f72b7419082722dd7be14f5.setContent(html_2e36dfe794f5914d81953bdbeb82e1e6);
+            
+        
+
+        marker_45d1e901b55fbaccc232b4af5d1f6abe.bindPopup(popup_d2b609a97f72b7419082722dd7be14f5)
+        ;
+
+        
+    
+    
+            var marker_a5429a2dc40a42caa842cde78569a7a1 = L.marker(
+                [37.3472996024584, 126.974130960263],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_026d4d5ba43fdeb39e3581460d98cdfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5429a2dc40a42caa842cde78569a7a1.setIcon(icon_026d4d5ba43fdeb39e3581460d98cdfa);
+        
+    
+        var popup_1052e9f9585ec51f36a6af3fca281bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_201bacfe928c65ee526d3b5898c4d393 = $(`<div id="html_201bacfe928c65ee526d3b5898c4d393" style="width: 100.0%; height: 100.0%;">의왕노인장기요양재기센타</div>`)[0];
+                popup_1052e9f9585ec51f36a6af3fca281bc3.setContent(html_201bacfe928c65ee526d3b5898c4d393);
+            
+        
+
+        marker_a5429a2dc40a42caa842cde78569a7a1.bindPopup(popup_1052e9f9585ec51f36a6af3fca281bc3)
+        ;
+
+        
+    
+    
+            var marker_4aa9b890898d5c432469ac647c05052f = L.marker(
+                [35.2616388903896, 128.861021822052],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_de8e4473df0c609accddd5cb4f4e366d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4aa9b890898d5c432469ac647c05052f.setIcon(icon_de8e4473df0c609accddd5cb4f4e366d);
+        
+    
+        var popup_836bbbb7eca912d6be1f3c8c7b4fd9c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_061fbcf26d745acbe55659de2846a526 = $(`<div id="html_061fbcf26d745acbe55659de2846a526" style="width: 100.0%; height: 100.0%;">경상남도립김해노인전문병원</div>`)[0];
+                popup_836bbbb7eca912d6be1f3c8c7b4fd9c7.setContent(html_061fbcf26d745acbe55659de2846a526);
+            
+        
+
+        marker_4aa9b890898d5c432469ac647c05052f.bindPopup(popup_836bbbb7eca912d6be1f3c8c7b4fd9c7)
+        ;
+
+        
+    
+    
+            var marker_8196cd701894b39fa945afc6183e4007 = L.marker(
+                [36.4368909753388, 128.243094188385],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_debe79c7f12c624c6b3b93ae29d25332 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8196cd701894b39fa945afc6183e4007.setIcon(icon_debe79c7f12c624c6b3b93ae29d25332);
+        
+    
+        var popup_fce5503757784b039d88c967ccb5b6e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17fcc96a9d952449bcfa392aa8066054 = $(`<div id="html_17fcc96a9d952449bcfa392aa8066054" style="width: 100.0%; height: 100.0%;">상주시립노인요양병원</div>`)[0];
+                popup_fce5503757784b039d88c967ccb5b6e3.setContent(html_17fcc96a9d952449bcfa392aa8066054);
+            
+        
+
+        marker_8196cd701894b39fa945afc6183e4007.bindPopup(popup_fce5503757784b039d88c967ccb5b6e3)
+        ;
+
+        
+    
+    
+            var marker_c8df73f9a2b9eec67ec3ca37f5490b92 = L.marker(
+                [35.3023054177016, 126.777477170967],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_52cb6d97451091c844a0b7596b82021a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8df73f9a2b9eec67ec3ca37f5490b92.setIcon(icon_52cb6d97451091c844a0b7596b82021a);
+        
+    
+        var popup_943987d1a1d443efe5558e1807728386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_404e6ce6cef611f96e76b11e1c15af16 = $(`<div id="html_404e6ce6cef611f96e76b11e1c15af16" style="width: 100.0%; height: 100.0%;">장성공립노인전문요양병원</div>`)[0];
+                popup_943987d1a1d443efe5558e1807728386.setContent(html_404e6ce6cef611f96e76b11e1c15af16);
+            
+        
+
+        marker_c8df73f9a2b9eec67ec3ca37f5490b92.bindPopup(popup_943987d1a1d443efe5558e1807728386)
+        ;
+
+        
+    
+    
+            var marker_6563d0d731d47dbe45be146419e8ff99 = L.marker(
+                [37.4418801861653, 127.135867025907],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_f77c9920ce74eb273206ba8637aadc85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6563d0d731d47dbe45be146419e8ff99.setIcon(icon_f77c9920ce74eb273206ba8637aadc85);
+        
+    
+        var popup_c137c536cd6b07fb75a69b91745f166d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc6dec33c28b5c4a9f7d587208f9a881 = $(`<div id="html_dc6dec33c28b5c4a9f7d587208f9a881" style="width: 100.0%; height: 100.0%;">노인의료복지경조회성현한의원</div>`)[0];
+                popup_c137c536cd6b07fb75a69b91745f166d.setContent(html_dc6dec33c28b5c4a9f7d587208f9a881);
+            
+        
+
+        marker_6563d0d731d47dbe45be146419e8ff99.bindPopup(popup_c137c536cd6b07fb75a69b91745f166d)
+        ;
+
+        
+    
+    
+            var marker_65cb086b1fa7494b85a41a0752d589df = L.marker(
+                [35.4372061763459, 126.691166900974],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_6d71efce58570340f6d544374f0360f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65cb086b1fa7494b85a41a0752d589df.setIcon(icon_6d71efce58570340f6d544374f0360f5);
+        
+    
+        var popup_23e40b427fbc160b85be50011236d553 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0031f6a44ac2abc23d95ea279fb8e40c = $(`<div id="html_0031f6a44ac2abc23d95ea279fb8e40c" style="width: 100.0%; height: 100.0%;">전라북도고창노인요양병원</div>`)[0];
+                popup_23e40b427fbc160b85be50011236d553.setContent(html_0031f6a44ac2abc23d95ea279fb8e40c);
+            
+        
+
+        marker_65cb086b1fa7494b85a41a0752d589df.bindPopup(popup_23e40b427fbc160b85be50011236d553)
+        ;
+
+        
+    
+    
+            var marker_78e1865177acf543332d68f34e52cbf1 = L.marker(
+                [35.675798226364, 127.890831245728],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_f5d99e3d0f82c8da17d4e1f69a2c3837 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78e1865177acf543332d68f34e52cbf1.setIcon(icon_f5d99e3d0f82c8da17d4e1f69a2c3837);
+        
+    
+        var popup_9794fb83a9ccd45ea3be1c6af912dce4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70516642549a5510f81d4ddbaba28c29 = $(`<div id="html_70516642549a5510f81d4ddbaba28c29" style="width: 100.0%; height: 100.0%;">거창군립노인요양병원</div>`)[0];
+                popup_9794fb83a9ccd45ea3be1c6af912dce4.setContent(html_70516642549a5510f81d4ddbaba28c29);
+            
+        
+
+        marker_78e1865177acf543332d68f34e52cbf1.bindPopup(popup_9794fb83a9ccd45ea3be1c6af912dce4)
+        ;
+
+        
+    
+    
+            var marker_72083c1f66bd0e0bebb8c6523da5254e = L.marker(
+                [35.4377127791605, 127.846721822712],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_8038bf278d8a52585234f5131a4a64b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72083c1f66bd0e0bebb8c6523da5254e.setIcon(icon_8038bf278d8a52585234f5131a4a64b0);
+        
+    
+        var popup_1da3adfab9fa7d4d6d15dfd995676c90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b87c2d2e3e8f027d1b8f11b37b1f1f26 = $(`<div id="html_b87c2d2e3e8f027d1b8f11b37b1f1f26" style="width: 100.0%; height: 100.0%;">산청예심소규모노인종합센터</div>`)[0];
+                popup_1da3adfab9fa7d4d6d15dfd995676c90.setContent(html_b87c2d2e3e8f027d1b8f11b37b1f1f26);
+            
+        
+
+        marker_72083c1f66bd0e0bebb8c6523da5254e.bindPopup(popup_1da3adfab9fa7d4d6d15dfd995676c90)
+        ;
+
+        
+    
+    
+            var marker_3c5892daad8664274905a8841d2d55dd = L.marker(
+                [36.6743775018243, 127.443676535969],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_39f46727df94d5c4abed2f5ebf148e24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c5892daad8664274905a8841d2d55dd.setIcon(icon_39f46727df94d5c4abed2f5ebf148e24);
+        
+    
+        var popup_dd344d2da1267721920beb7be50261f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14565dcf3a0080d3525cdc8f13082118 = $(`<div id="html_14565dcf3a0080d3525cdc8f13082118" style="width: 100.0%; height: 100.0%;">우암소규모노인종합센터</div>`)[0];
+                popup_dd344d2da1267721920beb7be50261f5.setContent(html_14565dcf3a0080d3525cdc8f13082118);
+            
+        
+
+        marker_3c5892daad8664274905a8841d2d55dd.bindPopup(popup_dd344d2da1267721920beb7be50261f5)
+        ;
+
+        
+    
+    
+            var marker_fe194785298b5fddf630e35ba95b1256 = L.marker(
+                [37.3333158469848, 127.944441118427],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_9f2b81650d274771498a05a6d3867f9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe194785298b5fddf630e35ba95b1256.setIcon(icon_9f2b81650d274771498a05a6d3867f9a);
+        
+    
+        var popup_1be9bac1aa06aa7d953a6de671d8cae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caf6d5607bb8f863fc283bb0e278209b = $(`<div id="html_caf6d5607bb8f863fc283bb0e278209b" style="width: 100.0%; height: 100.0%;">노인의료복지경조회</div>`)[0];
+                popup_1be9bac1aa06aa7d953a6de671d8cae6.setContent(html_caf6d5607bb8f863fc283bb0e278209b);
+            
+        
+
+        marker_fe194785298b5fddf630e35ba95b1256.bindPopup(popup_1be9bac1aa06aa7d953a6de671d8cae6)
+        ;
+
+        
+    
+    
+            var marker_3b887293405469f1dd64e3ee6a0e2c28 = L.marker(
+                [35.7159127686324, 126.744943842201],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_303b45d5408cfc21788e2ded4f9c55e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b887293405469f1dd64e3ee6a0e2c28.setIcon(icon_303b45d5408cfc21788e2ded4f9c55e1);
+        
+    
+        var popup_0cc53c955fc5d2dc7ebf98d3ed7d41ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31514d410bf0ec56acb291753a1d04c2 = $(`<div id="html_31514d410bf0ec56acb291753a1d04c2" style="width: 100.0%; height: 100.0%;">부안군노인요양병원</div>`)[0];
+                popup_0cc53c955fc5d2dc7ebf98d3ed7d41ff.setContent(html_31514d410bf0ec56acb291753a1d04c2);
+            
+        
+
+        marker_3b887293405469f1dd64e3ee6a0e2c28.bindPopup(popup_0cc53c955fc5d2dc7ebf98d3ed7d41ff)
+        ;
+
+        
+    
+    
+            var marker_19af52f3a8e9d45396ca47d0b1e6e147 = L.marker(
+                [34.7644866092984, 127.699517996064],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_11ee4fd654b3d8ad96418eec2608a8c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19af52f3a8e9d45396ca47d0b1e6e147.setIcon(icon_11ee4fd654b3d8ad96418eec2608a8c9);
+        
+    
+        var popup_81852eb861379b9522f8d8a67c2ef594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fb3773699e58a1df3b93ea48617d6e0 = $(`<div id="html_3fb3773699e58a1df3b93ea48617d6e0" style="width: 100.0%; height: 100.0%;">여수노인전문요양병원</div>`)[0];
+                popup_81852eb861379b9522f8d8a67c2ef594.setContent(html_3fb3773699e58a1df3b93ea48617d6e0);
+            
+        
+
+        marker_19af52f3a8e9d45396ca47d0b1e6e147.bindPopup(popup_81852eb861379b9522f8d8a67c2ef594)
+        ;
+
+        
+    
+    
+            var marker_50d7c4c57b04cb482ab2df6ddca77893 = L.marker(
+                [36.439110666781, 127.091950512202],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_1a43de3e6936c1cc0ab090676adb18fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_50d7c4c57b04cb482ab2df6ddca77893.setIcon(icon_1a43de3e6936c1cc0ab090676adb18fb);
+        
+    
+        var popup_dbb35dddb49bffaa42981c89c7faa80b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8f2b11784e4f9bb907c527a6f077ec3 = $(`<div id="html_e8f2b11784e4f9bb907c527a6f077ec3" style="width: 100.0%; height: 100.0%;">공주노인전문클리닉의원</div>`)[0];
+                popup_dbb35dddb49bffaa42981c89c7faa80b.setContent(html_e8f2b11784e4f9bb907c527a6f077ec3);
+            
+        
+
+        marker_50d7c4c57b04cb482ab2df6ddca77893.bindPopup(popup_dbb35dddb49bffaa42981c89c7faa80b)
+        ;
+
+        
+    
+    
+            var marker_f83361bdeb9bfbcf51b5042643b3e4f1 = L.marker(
+                [37.2706149498988, 127.152587523017],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_6f24d7b9a9cfcc8e9164a20f40f4d498 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f83361bdeb9bfbcf51b5042643b3e4f1.setIcon(icon_6f24d7b9a9cfcc8e9164a20f40f4d498);
+        
+    
+        var popup_4e88c41fa8cbd36ef77678d2b2b59eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53409e4681d6ff991af308b6f09bdb75 = $(`<div id="html_53409e4681d6ff991af308b6f09bdb75" style="width: 100.0%; height: 100.0%;">용인도우누리-노인돌보미</div>`)[0];
+                popup_4e88c41fa8cbd36ef77678d2b2b59eaa.setContent(html_53409e4681d6ff991af308b6f09bdb75);
+            
+        
+
+        marker_f83361bdeb9bfbcf51b5042643b3e4f1.bindPopup(popup_4e88c41fa8cbd36ef77678d2b2b59eaa)
+        ;
+
+        
+    
+    
+            var marker_6870de60e5c1964866028af1b718a734 = L.marker(
+                [35.8522319685979, 128.624738724923],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_5af04c14d967102a381f2966c2b75ba7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6870de60e5c1964866028af1b718a734.setIcon(icon_5af04c14d967102a381f2966c2b75ba7);
+        
+    
+        var popup_fe1efbb14477c6fe5ea3fa4b500f3846 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_601b3c9d114af197af13340ac2cacf4c = $(`<div id="html_601b3c9d114af197af13340ac2cacf4c" style="width: 100.0%; height: 100.0%;">송효의료재단효산병원,효산요양병원,효산노인요양원</div>`)[0];
+                popup_fe1efbb14477c6fe5ea3fa4b500f3846.setContent(html_601b3c9d114af197af13340ac2cacf4c);
+            
+        
+
+        marker_6870de60e5c1964866028af1b718a734.bindPopup(popup_fe1efbb14477c6fe5ea3fa4b500f3846)
+        ;
+
+        
+    
+    
+            var marker_f78decce34efbc14409dfc7219876a17 = L.marker(
+                [35.8763674854172, 129.166548695929],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_e8adf3a8af3fa7212ac3cd16db6c15d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f78decce34efbc14409dfc7219876a17.setIcon(icon_e8adf3a8af3fa7212ac3cd16db6c15d0);
+        
+    
+        var popup_87a241f28fb634fdbaa488821f4600d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44a63d1c6fab7602dbb711dd568813f7 = $(`<div id="html_44a63d1c6fab7602dbb711dd568813f7" style="width: 100.0%; height: 100.0%;">경주시립노인전문요양병원</div>`)[0];
+                popup_87a241f28fb634fdbaa488821f4600d2.setContent(html_44a63d1c6fab7602dbb711dd568813f7);
+            
+        
+
+        marker_f78decce34efbc14409dfc7219876a17.bindPopup(popup_87a241f28fb634fdbaa488821f4600d2)
+        ;
+
+        
+    
+    
+            var marker_fb6b785e7d6a86027015a6193e5d8a2e = L.marker(
+                [36.1521765239091, 128.28909965348],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_e3a1381bae057abc686a00398f079f44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb6b785e7d6a86027015a6193e5d8a2e.setIcon(icon_e3a1381bae057abc686a00398f079f44);
+        
+    
+        var popup_c505a9666de8cc5c8bf3423da022adc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35d4228785d1aebf49832dca3218191d = $(`<div id="html_35d4228785d1aebf49832dca3218191d" style="width: 100.0%; height: 100.0%;">구미시립노인요양병원</div>`)[0];
+                popup_c505a9666de8cc5c8bf3423da022adc9.setContent(html_35d4228785d1aebf49832dca3218191d);
+            
+        
+
+        marker_fb6b785e7d6a86027015a6193e5d8a2e.bindPopup(popup_c505a9666de8cc5c8bf3423da022adc9)
+        ;
+
+        
+    
+    
+            var marker_8f3d4a09768b1a5b0828ae87e7b7ede1 = L.marker(
+                [37.5466779498792, 126.685167012276],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_ccedf4647e2e84e90680742029273af8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f3d4a09768b1a5b0828ae87e7b7ede1.setIcon(icon_ccedf4647e2e84e90680742029273af8);
+        
+    
+        var popup_7b3ca9642a6773c0955366ab28b30e44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0228667fe47816eb20b297354db1fcb = $(`<div id="html_e0228667fe47816eb20b297354db1fcb" style="width: 100.0%; height: 100.0%;">인천광역시립노인치매요양병원</div>`)[0];
+                popup_7b3ca9642a6773c0955366ab28b30e44.setContent(html_e0228667fe47816eb20b297354db1fcb);
+            
+        
+
+        marker_8f3d4a09768b1a5b0828ae87e7b7ede1.bindPopup(popup_7b3ca9642a6773c0955366ab28b30e44)
+        ;
+
+        
+    
+    
+            var marker_640df0d2159870df5f6cb91d67dfe786 = L.marker(
+                [35.2840969822095, 126.49807042328],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_f9ad9afffa68f514ceacc5a3a6c7d4a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_640df0d2159870df5f6cb91d67dfe786.setIcon(icon_f9ad9afffa68f514ceacc5a3a6c7d4a6);
+        
+    
+        var popup_ac62e7363c4a41654bf112e25817f541 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e251f4ec167c5ad17ac382830ed7f4c = $(`<div id="html_8e251f4ec167c5ad17ac382830ed7f4c" style="width: 100.0%; height: 100.0%;">공립영광노인전문요양병원</div>`)[0];
+                popup_ac62e7363c4a41654bf112e25817f541.setContent(html_8e251f4ec167c5ad17ac382830ed7f4c);
+            
+        
+
+        marker_640df0d2159870df5f6cb91d67dfe786.bindPopup(popup_ac62e7363c4a41654bf112e25817f541)
+        ;
+
+        
+    
+    
+            var marker_97a17d0d5dd40f1671a4cfb45b670669 = L.marker(
+                [37.5747847840931, 126.729140076807],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_cc6c0fa7312a6a14736ff58fa1b37cd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97a17d0d5dd40f1671a4cfb45b670669.setIcon(icon_cc6c0fa7312a6a14736ff58fa1b37cd7);
+        
+    
+        var popup_9fc5df9972ada20a858fb89447853b28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_102338c97d87ced9bca1e48f8ad81e5e = $(`<div id="html_102338c97d87ced9bca1e48f8ad81e5e" style="width: 100.0%; height: 100.0%;">인천제2시립노인치매요양병원</div>`)[0];
+                popup_9fc5df9972ada20a858fb89447853b28.setContent(html_102338c97d87ced9bca1e48f8ad81e5e);
+            
+        
+
+        marker_97a17d0d5dd40f1671a4cfb45b670669.bindPopup(popup_9fc5df9972ada20a858fb89447853b28)
+        ;
+
+        
+    
+    
+            var marker_0566e3ffc5b0acd78e9abeda2ef81476 = L.marker(
+                [34.9579138717686, 127.690623397338],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_01a5d583aee97835f9b6792fa5c44832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0566e3ffc5b0acd78e9abeda2ef81476.setIcon(icon_01a5d583aee97835f9b6792fa5c44832);
+        
+    
+        var popup_8218d4b018cfdeb09421453818c66733 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a526e0effb657298222680f472b2c37f = $(`<div id="html_a526e0effb657298222680f472b2c37f" style="width: 100.0%; height: 100.0%;">광양시공립노인전문요양병원</div>`)[0];
+                popup_8218d4b018cfdeb09421453818c66733.setContent(html_a526e0effb657298222680f472b2c37f);
+            
+        
+
+        marker_0566e3ffc5b0acd78e9abeda2ef81476.bindPopup(popup_8218d4b018cfdeb09421453818c66733)
+        ;
+
+        
+    
+    
+            var marker_7eb75a560f09a43d45b9fe1ada6b7d07 = L.marker(
+                [35.8041137868186, 127.085735243517],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_e3982ecfd5a647aa66948009b6b22d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7eb75a560f09a43d45b9fe1ada6b7d07.setIcon(icon_e3982ecfd5a647aa66948009b6b22d60);
+        
+    
+        var popup_868020cd1680c472d58eb0147071a959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7b9c01ae39732219b500a5f6c41cc9d = $(`<div id="html_a7b9c01ae39732219b500a5f6c41cc9d" style="width: 100.0%; height: 100.0%;">삼동회전주시노인복지병원</div>`)[0];
+                popup_868020cd1680c472d58eb0147071a959.setContent(html_a7b9c01ae39732219b500a5f6c41cc9d);
+            
+        
+
+        marker_7eb75a560f09a43d45b9fe1ada6b7d07.bindPopup(popup_868020cd1680c472d58eb0147071a959)
+        ;
+
+        
+    
+    
+            var marker_d29630660e36590a6626190c58d6ca9e = L.marker(
+                [37.5466779498792, 126.685167012276],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_9740852797bd2f40becaa3142e07a55f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d29630660e36590a6626190c58d6ca9e.setIcon(icon_9740852797bd2f40becaa3142e07a55f);
+        
+    
+        var popup_55fe1be681486a4fc72f85ffa82f15d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc559c9fc547172857d2e12af3e46cb = $(`<div id="html_1cc559c9fc547172857d2e12af3e46cb" style="width: 100.0%; height: 100.0%;">인천시립치매요양병원</div>`)[0];
+                popup_55fe1be681486a4fc72f85ffa82f15d9.setContent(html_1cc559c9fc547172857d2e12af3e46cb);
+            
+        
+
+        marker_d29630660e36590a6626190c58d6ca9e.bindPopup(popup_55fe1be681486a4fc72f85ffa82f15d9)
+        ;
+
+        
+    
+    
+            var marker_bb88f4cef0976741fd3ab97c74088a66 = L.marker(
+                [36.0350952266468, 129.353789691459],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_686e9872ffb8fb43af86741f4a30b55b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb88f4cef0976741fd3ab97c74088a66.setIcon(icon_686e9872ffb8fb43af86741f4a30b55b);
+        
+    
+        var popup_321c4fae1f00ee87366aa87964738437 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55a335bf610ce94b7043fe56220c20a5 = $(`<div id="html_55a335bf610ce94b7043fe56220c20a5" style="width: 100.0%; height: 100.0%;">경상북도포항노인전문요양병원</div>`)[0];
+                popup_321c4fae1f00ee87366aa87964738437.setContent(html_55a335bf610ce94b7043fe56220c20a5);
+            
+        
+
+        marker_bb88f4cef0976741fd3ab97c74088a66.bindPopup(popup_321c4fae1f00ee87366aa87964738437)
+        ;
+
+        
+    
+    
+            var marker_01ff4ec744af335236f3a207c8f4fac1 = L.marker(
+                [35.0005205419722, 126.488921445536],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_280e888efb0475e771b215d19a3febb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01ff4ec744af335236f3a207c8f4fac1.setIcon(icon_280e888efb0475e771b215d19a3febb2);
+        
+    
+        var popup_bf5f7719bac175deac986f6819f4fd46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_421866a9859e44ba5b9cb6e898749105 = $(`<div id="html_421866a9859e44ba5b9cb6e898749105" style="width: 100.0%; height: 100.0%;">공립무안군노인전문요양병원</div>`)[0];
+                popup_bf5f7719bac175deac986f6819f4fd46.setContent(html_421866a9859e44ba5b9cb6e898749105);
+            
+        
+
+        marker_01ff4ec744af335236f3a207c8f4fac1.bindPopup(popup_bf5f7719bac175deac986f6819f4fd46)
+        ;
+
+        
+    
+    
+            var marker_4765a33ac75f1e07c56e272983056d18 = L.marker(
+                [36.1421243378771, 129.333759950048],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_50e777abd6d9083ee99f0f24b03311fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4765a33ac75f1e07c56e272983056d18.setIcon(icon_50e777abd6d9083ee99f0f24b03311fd);
+        
+    
+        var popup_2469a40b71d0aa5906611eddf01008b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2535ee88ea3b501da07a49d6e980a711 = $(`<div id="html_2535ee88ea3b501da07a49d6e980a711" style="width: 100.0%; height: 100.0%;">화암의료재단노인간호나라요양병원급식소</div>`)[0];
+                popup_2469a40b71d0aa5906611eddf01008b3.setContent(html_2535ee88ea3b501da07a49d6e980a711);
+            
+        
+
+        marker_4765a33ac75f1e07c56e272983056d18.bindPopup(popup_2469a40b71d0aa5906611eddf01008b3)
+        ;
+
+        
+    
+    
+            var marker_18ee8b123c057998f11b88e8b98cf0b7 = L.marker(
+                [33.4732307440035, 126.372191133535],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_d7a51a7a5a92c6bc0ef7e840e244169e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18ee8b123c057998f11b88e8b98cf0b7.setIcon(icon_d7a51a7a5a92c6bc0ef7e840e244169e);
+        
+    
+        var popup_dbb3518b09417f48fc574ddf477b55d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_433f7b2108e21aaaf9fdeab454027162 = $(`<div id="html_433f7b2108e21aaaf9fdeab454027162" style="width: 100.0%; height: 100.0%;">제주노인전문의원</div>`)[0];
+                popup_dbb3518b09417f48fc574ddf477b55d6.setContent(html_433f7b2108e21aaaf9fdeab454027162);
+            
+        
+
+        marker_18ee8b123c057998f11b88e8b98cf0b7.bindPopup(popup_dbb3518b09417f48fc574ddf477b55d6)
+        ;
+
+        
+    
+    
+            var marker_107dc92e8465a6ecb1e5bb9e0714d3b0 = L.marker(
+                [35.925579078968, 128.412363353152],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_730ae9e1d4e04e83542d66bc40389df2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_107dc92e8465a6ecb1e5bb9e0714d3b0.setIcon(icon_730ae9e1d4e04e83542d66bc40389df2);
+        
+    
+        var popup_f7374715996be9cf8b9728351e074ba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64f6415ed20ec7e11f8ad17a3b01a222 = $(`<div id="html_64f6415ed20ec7e11f8ad17a3b01a222" style="width: 100.0%; height: 100.0%;">칠곡군립노인요양병원</div>`)[0];
+                popup_f7374715996be9cf8b9728351e074ba1.setContent(html_64f6415ed20ec7e11f8ad17a3b01a222);
+            
+        
+
+        marker_107dc92e8465a6ecb1e5bb9e0714d3b0.bindPopup(popup_f7374715996be9cf8b9728351e074ba1)
+        ;
+
+        
+    
+    
+            var marker_ca548eced2151bafbdd74979e649de36 = L.marker(
+                [37.4363989489207, 126.879081643381],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_757a11e10058d7e647b9f153ac987eb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca548eced2151bafbdd74979e649de36.setIcon(icon_757a11e10058d7e647b9f153ac987eb1);
+        
+    
+        var popup_0bbe9074a62fe3a184596d018bf07383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8aab647bc4813a4ad1b9c002a125530 = $(`<div id="html_d8aab647bc4813a4ad1b9c002a125530" style="width: 100.0%; height: 100.0%;">참편한노인요양병원</div>`)[0];
+                popup_0bbe9074a62fe3a184596d018bf07383.setContent(html_d8aab647bc4813a4ad1b9c002a125530);
+            
+        
+
+        marker_ca548eced2151bafbdd74979e649de36.bindPopup(popup_0bbe9074a62fe3a184596d018bf07383)
+        ;
+
+        
+    
+    
+            var marker_09c95ca52e185dd50ec9f5ca4a01c6e0 = L.marker(
+                [34.8052223662376, 126.4009503419],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_823595a3525095547a086b8aa609ae81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09c95ca52e185dd50ec9f5ca4a01c6e0.setIcon(icon_823595a3525095547a086b8aa609ae81);
+        
+    
+        var popup_83136005a2675ed4094f16c6343d2223 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b67126d0bb790db9e5fedc78b2c35f9 = $(`<div id="html_6b67126d0bb790db9e5fedc78b2c35f9" style="width: 100.0%; height: 100.0%;">후담노인요양병원</div>`)[0];
+                popup_83136005a2675ed4094f16c6343d2223.setContent(html_6b67126d0bb790db9e5fedc78b2c35f9);
+            
+        
+
+        marker_09c95ca52e185dd50ec9f5ca4a01c6e0.bindPopup(popup_83136005a2675ed4094f16c6343d2223)
+        ;
+
+        
+    
+    
+            var marker_39180bedc6cf27039a664bc00799116e = L.marker(
+                [37.4933419831764, 126.679928390962],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_148a9546725f654c04d66e148f165223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39180bedc6cf27039a664bc00799116e.setIcon(icon_148a9546725f654c04d66e148f165223);
+        
+    
+        var popup_7e1211661532fdad784e3c95e63d31e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfcd6d98b049d4b384162fc209a338e7 = $(`<div id="html_bfcd6d98b049d4b384162fc209a338e7" style="width: 100.0%; height: 100.0%;">삼성노인요양병원</div>`)[0];
+                popup_7e1211661532fdad784e3c95e63d31e9.setContent(html_bfcd6d98b049d4b384162fc209a338e7);
+            
+        
+
+        marker_39180bedc6cf27039a664bc00799116e.bindPopup(popup_7e1211661532fdad784e3c95e63d31e9)
+        ;
+
+        
+    
+    
+            var marker_985cefa84a5024dec017d47be51a8835 = L.marker(
+                [37.5076843735746, 126.750999334595],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_cdbaa5078b635db51d83e3c998e19776 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_985cefa84a5024dec017d47be51a8835.setIcon(icon_cdbaa5078b635db51d83e3c998e19776);
+        
+    
+        var popup_dadfd4df1e0c16094a60628af0ae1ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b83b4bd827b064fd0899a98be8b797a0 = $(`<div id="html_b83b4bd827b064fd0899a98be8b797a0" style="width: 100.0%; height: 100.0%;">효채움노인전문요양병원</div>`)[0];
+                popup_dadfd4df1e0c16094a60628af0ae1ea9.setContent(html_b83b4bd827b064fd0899a98be8b797a0);
+            
+        
+
+        marker_985cefa84a5024dec017d47be51a8835.bindPopup(popup_dadfd4df1e0c16094a60628af0ae1ea9)
+        ;
+
+        
+    
+    
+            var marker_59f253ad0c2f200988a182fefaa37584 = L.marker(
+                [37.1350612344794, 128.20735614996],
+                {}
+            ).addTo(map_df555ef96c838b739362b68c8fc49073);
+        
+    
+            var icon_7f2e12cef76aafeff0d4855288caf539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59f253ad0c2f200988a182fefaa37584.setIcon(icon_7f2e12cef76aafeff0d4855288caf539);
+        
+    
+        var popup_be7cf692baf03bdfd2a755fbb3ba4f4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70296be7ef882c0c9e6f53a86608cc52 = $(`<div id="html_70296be7ef882c0c9e6f53a86608cc52" style="width: 100.0%; height: 100.0%;">자산의료재단제천서울병원서울요양병원서울노인요양원</div>`)[0];
+                popup_be7cf692baf03bdfd2a755fbb3ba4f4b.setContent(html_70296be7ef882c0c9e6f53a86608cc52);
+            
+        
+
+        marker_59f253ad0c2f200988a182fefaa37584.bindPopup(popup_be7cf692baf03bdfd2a755fbb3ba4f4b)
+        ;
+
+        
+    
+</script>
+</html>
