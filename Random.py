@@ -1,7 +1,4 @@
 
-
-
-
 import random
 
 def generate_lotto_numbers():
